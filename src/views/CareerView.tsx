@@ -166,19 +166,17 @@ export default function CareerView() {
                       }}
                       className={`w-full text-left p-5 rounded-2xl border transition-all duration-200 cursor-pointer ${
                         isSelected 
-                          ? "border-[#122e42]] bg-sky-50/40 shadow-sm ring-1 ring-[#122e42]]/15" 
+                          ? "border-[#122e42] bg-sky-50/40 shadow-sm ring-1 ring-[#122e42]/15" 
                           : "border-slate-200 hover:border-slate-300 hover:bg-slate-50/40 bg-white"
                       }`}
                       id={`job-card-btn-${job.id}`}
                     >
                       <div className="flex justify-between items-start gap-4">
                         <div className="space-y-2">
-                          <span className="inline-block bg-sky-50 text-[10px] text-[#122e42]
-] font-mono font-bold px-2.5 py-1 rounded-full outline-1 outline-sky-200">
+                          <span className="inline-block bg-sky-50 text-[10px] text-[#122e42]font-mono font-bold px-2.5 py-1 rounded-full outline-1 outline-sky-200">
                             {job.department}
                           </span>
-                          <h4 className="font-heading font-bold text-[#122e42]
-] text-base leading-snug">
+                          <h4 className="font-heading font-bold text-[#122e42] text-base leading-snug">
                             {job.title}
                           </h4>
                           

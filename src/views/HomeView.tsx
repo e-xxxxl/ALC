@@ -320,8 +320,7 @@ export default function HomeView() {
                     </div>
                     {/* Details */}
                     <div className="space-y-1.5">
-                      <h4 className="text-base font-semibold text-[#122e42]
-] font-heading">
+                      <h4 className="text-base font-semibold text-[#122e42] font-heading">
                         {stepItem.title}
                       </h4>
                       <p className="text-gray-600 text-xs md:text-sm font-light leading-relaxed">
@@ -337,9 +336,7 @@ export default function HomeView() {
               <div className="flex flex-wrap gap-3 pt-8 pl-4">
                 <Link 
                   href="/contact-us" 
-                  className="bg-[#122e42]
-] text-white hover:bg-[#122e42]
-]/95 text-xs font-semibold px-5 py-3 rounded-lg flex items-center gap-1.5 shadow-md hover:scale-[1.01]"
+                  className="bg-[#122e42] text-white hover:bg-[#122e42]/95 text-xs font-semibold px-5 py-3 rounded-lg flex items-center gap-1.5 shadow-md hover:scale-[1.01]"
                 >
                   <Check size={14} /> Get started
                 </Link>
@@ -363,8 +360,7 @@ export default function HomeView() {
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-[#122e42]
-]/10 transition-colors group-hover:bg-transparent"></div>
+                <div className="absolute inset-0 bg-[#122e42]/10 transition-colors group-hover:bg-transparent"></div>
               </div>
 
               {/* Image 2 - bottom left offset */}
@@ -375,8 +371,7 @@ export default function HomeView() {
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-[#122e42]
-]/15 transition-colors group-hover:bg-transparent"></div>
+                <div className="absolute inset-0 bg-[#122e42]/15 transition-colors group-hover:bg-transparent"></div>
               </div>
 
             </div>
