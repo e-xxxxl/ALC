@@ -1,0 +1,6 @@
+{
+  "name": "Affectionate Living Care",
+  "description": "Premium, compassionate home-care provider in the UK, delivering personalized support for adults and children.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
