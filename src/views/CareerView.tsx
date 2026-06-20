@@ -125,7 +125,8 @@ export default function CareerView() {
       {/* Intro Header */}
       <section className="bg-slate-50 py-16 md:py-24 border-b border-slate-100 relative">
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10 space-y-6">
-          <span className="text-[10px] font-bold font-mono tracking-widest text-brand-primary bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100">
+          <span className="text-[10px] font-bold font-mono tracking-widest text-[#122e42]
+] bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100">
             Join Our Team
           </span>
           <h1 className="text-3xl md:text-5xl font-heading font-bold text-gray-950 tracking-tight leading-tight">
@@ -144,8 +145,9 @@ export default function CareerView() {
             
             {/* Left side Open Roles list */}
             <div className="lg:col-span-6 space-y-6">
-              <h2 className="font-heading font-bold text-brand-primary text-xl flex items-center gap-2">
-                <Briefcase size={20} className="text-brand-accent" /> Available Job Positions
+              <h2 className="font-heading font-bold text-[#122e42]
+] text-xl flex items-center gap-2">
+                <Briefcase size={20} className="text-[#e9cb8d]" /> Available Job Positions
               </h2>
               <p className="text-gray-500 font-light text-xs -mt-3">
                 Click any role to load details inside our application panel on the right.
@@ -164,30 +166,32 @@ export default function CareerView() {
                       }}
                       className={`w-full text-left p-5 rounded-2xl border transition-all duration-200 cursor-pointer ${
                         isSelected 
-                          ? "border-brand-primary bg-sky-50/40 shadow-sm ring-1 ring-brand-primary/15" 
+                          ? "border-[#122e42]] bg-sky-50/40 shadow-sm ring-1 ring-[#122e42]]/15" 
                           : "border-slate-200 hover:border-slate-300 hover:bg-slate-50/40 bg-white"
                       }`}
                       id={`job-card-btn-${job.id}`}
                     >
                       <div className="flex justify-between items-start gap-4">
                         <div className="space-y-2">
-                          <span className="inline-block bg-sky-50 text-[10px] text-brand-primary font-mono font-bold px-2.5 py-1 rounded-full outline-1 outline-sky-200">
+                          <span className="inline-block bg-sky-50 text-[10px] text-[#122e42]
+] font-mono font-bold px-2.5 py-1 rounded-full outline-1 outline-sky-200">
                             {job.department}
                           </span>
-                          <h4 className="font-heading font-bold text-brand-primary text-base leading-snug">
+                          <h4 className="font-heading font-bold text-[#122e42]
+] text-base leading-snug">
                             {job.title}
                           </h4>
                           
                           <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-xs text-gray-500 font-light">
-                            <span className="flex items-center gap-1"><MapPin size={13} className="text-brand-accent" /> {job.location}</span>
-                            <span className="flex items-center gap-1"><Clock size={13} className="text-brand-accent" /> {job.type}</span>
+                            <span className="flex items-center gap-1"><MapPin size={13} className="text-[#e9cb8d]" /> {job.location}</span>
+                            <span className="flex items-center gap-1"><Clock size={13} className="text-[#e9cb8d]" /> {job.type}</span>
                           </div>
                         </div>
 
-                        <ChevronRight size={18} className={`text-gray-400 mt-1 transition-transform ${isSelected ? "rotate-90 text-brand-primary" : ""}`} />
+                        <ChevronRight size={18} className={`text-gray-400 mt-1 transition-transform ${isSelected ? "rotate-90 text-[#122e42]" : ""}`} />
                       </div>
 
-                      <div className="pt-3 border-t border-slate-100/80 mt-3 text-xs text-brand-accent font-semibold flex items-center justify-between">
+                      <div className="pt-3 border-t border-slate-100/80 mt-3 text-xs text-[#e9cb8d] font-semibold flex items-center justify-between">
                         <span>Salary: {job.salary}</span>
                         <span className="text-[10px] text-gray-400 font-normal">Click to apply &rarr;</span>
                       </div>
@@ -212,7 +216,7 @@ export default function CareerView() {
                       <X size={16} />
                     </button>
 
-                    <span className="text-xs font-mono font-bold text-brand-accent">{selectedJob.department}</span>
+                    <span className="text-xs font-mono font-bold text-[#e9cb8d]">{selectedJob.department}</span>
                     <h3 className="font-heading font-bold text-gray-950 text-xl leading-tight">
                       {selectedJob.title}
                     </h3>
@@ -237,7 +241,7 @@ export default function CareerView() {
                       <div className="pt-2">
                         <button 
                           onClick={() => setSubmitted(false)}
-                          className="bg-brand-primary text-white text-xs font-semibold px-5 py-2.5 rounded-lg"
+                          className="bg-[#122e42] text-white text-xs font-semibold px-5 py-2.5 rounded-lg"
                         >
                           Submit another CV
                         </button>
@@ -250,7 +254,8 @@ export default function CareerView() {
                       <div className="max-h-48 overflow-y-auto bg-white/70 p-4 rounded-2xl border border-slate-200 text-xs font-light text-gray-600 space-y-3">
                         <p><strong>Description:</strong> {selectedJob.description}</p>
                         <div>
-                          <strong className="block text-brand-primary mb-1">Key Requirements & Vetting standard:</strong>
+                          <strong className="block text-[#122e42]
+] mb-1">Key Requirements & Vetting standard:</strong>
                           <ul className="list-disc pl-4 space-y-1.5">
                             {selectedJob.requirements.map((req, i) => <li key={i}>{req}</li>)}
                           </ul>
@@ -258,7 +263,8 @@ export default function CareerView() {
                       </div>
 
                       <div className="border-t border-slate-200 pt-4">
-                        <h4 className="font-heading font-bold text-brand-primary text-sm mb-3">Apply Online For This Role</h4>
+                        <h4 className="font-heading font-bold text-[#122e42]
+] text-sm mb-3">Apply Online For This Role</h4>
                       </div>
 
                       {errorMsg && (
@@ -281,7 +287,9 @@ export default function CareerView() {
                               value={formData.name}
                               onChange={handleInputChange}
                               placeholder="Name"
-                              className="w-full bg-white border border-gray-200 focus:border-brand-primary focus:ring-1 focus:ring-brand-primary/10 rounded-xl px-3 py-2.5 text-xs outline-none transition-all"
+                              className="w-full bg-white border border-gray-200 focus:border-[#122e42]
+] focus:ring-1 focus:ring-[#122e42]
+]/10 rounded-xl px-3 py-2.5 text-xs outline-none transition-all"
                             />
                           </div>
                           <div className="space-y-1">
@@ -294,7 +302,9 @@ export default function CareerView() {
                               value={formData.email}
                               onChange={handleInputChange}
                               placeholder="Email"
-                              className="w-full bg-white border border-gray-200 focus:border-brand-primary focus:ring-1 focus:ring-brand-primary/10 rounded-xl px-3 py-2.5 text-xs outline-none transition-all"
+                              className="w-full bg-white border border-gray-200 focus:border-[#122e42]
+] focus:ring-1 focus:ring-[#122e42]
+]/10 rounded-xl px-3 py-2.5 text-xs outline-none transition-all"
                             />
                           </div>
                         </div>
@@ -311,7 +321,9 @@ export default function CareerView() {
                               value={formData.phone}
                               onChange={handleInputChange}
                               placeholder="Phone"
-                              className="w-full bg-white border border-gray-200 focus:border-brand-primary focus:ring-1 focus:ring-brand-primary/10 rounded-xl px-3 py-2.5 text-xs outline-none transition-all"
+                              className="w-full bg-white border border-gray-200 focus:border-[#122e42]
+] focus:ring-1 focus:ring-[#122e42]
+]/10 rounded-xl px-3 py-2.5 text-xs outline-none transition-all"
                             />
                           </div>
                           <div className="space-y-1">
@@ -321,7 +333,9 @@ export default function CareerView() {
                               name="experience"
                               value={formData.experience}
                               onChange={handleInputChange}
-                              className="w-full bg-white border border-gray-200 focus:border-brand-primary focus:ring-1 focus:ring-brand-primary/10 rounded-xl px-3 py-2.5 text-xs outline-none cursor-pointer"
+                              className="w-full bg-white border border-gray-200 focus:border-[#122e42]
+] focus:ring-1 focus:ring-[#122e42]
+]/10 rounded-xl px-3 py-2.5 text-xs outline-none cursor-pointer"
                             >
                               <option value="0-1">Less than 1 year</option>
                               <option value="1-3">1 to 3 years</option>
@@ -342,7 +356,7 @@ export default function CareerView() {
                             onClick={triggerFileInput}
                             className={`border-2 border-dashed rounded-2xl p-5 text-center transition-all cursor-pointer flex flex-col items-center justify-center space-y-2 ${
                               isDragActive 
-                                ? "border-brand-primary bg-sky-50 shadow-inner" 
+                                ? "border-[#122e42] bg-sky-50 shadow-inner" 
                                 : uploadedFile 
                                 ? "border-emerald-300 bg-emerald-50/30" 
                                 : "border-slate-300 hover:border-slate-400 bg-white"
@@ -374,11 +388,14 @@ export default function CareerView() {
                             ) : (
                               <>
                                 <div className="w-10 h-10 rounded-full bg-slate-100 text-gray-700 flex items-center justify-center">
-                                  <Upload size={16} className="text-brand-primary" />
+                                  <Upload size={16} className="text-[#122e42]
+]" />
                                 </div>
                                 <div className="space-y-0.5">
                                   <p className="text-xs font-semibold text-neutral-800">
-                                    Drag &amp; drop file here, or <span className="text-brand-primary underline hover:text-brand-primary/80">browse</span>
+                                    Drag &amp; drop file here, or <span className="text-[#122e42]
+] underline hover:text-[#122e42]
+]/80">browse</span>
                                   </p>
                                   <p className="text-[10px] text-neutral-400">PDF, DOC, DOCX up to 10MB</p>
                                 </div>
@@ -397,7 +414,9 @@ export default function CareerView() {
                             value={formData.message}
                             onChange={handleInputChange}
                             placeholder="Why would you be a wonderful addition to our local care team?"
-                            className="w-full bg-white border border-gray-200 focus:border-brand-primary focus:ring-1 focus:ring-brand-primary/10 rounded-xl px-3 py-2 text-xs outline-none resize-none"
+                            className="w-full bg-white border border-gray-200 focus:border-[#122e42]
+] focus:ring-1 focus:ring-[#122e42]
+]/10 rounded-xl px-3 py-2 text-xs outline-none resize-none"
                           ></textarea>
                         </div>
 
@@ -406,7 +425,9 @@ export default function CareerView() {
                       <button
                         type="submit"
                         disabled={submitting}
-                        className="w-full bg-brand-primary hover:bg-brand-primary/95 text-white font-bold text-xs uppercase tracking-wider py-3.5 rounded-xl shadow-md transition disabled:bg-slate-300 disabled:cursor-not-allowed cursor-pointer"
+                        className="w-full bg-[#122e42]
+] hover:bg-[#122e42]
+]/95 text-white font-bold text-xs uppercase tracking-wider py-3.5 rounded-xl shadow-md transition disabled:bg-slate-300 disabled:cursor-not-allowed cursor-pointer"
                         id="submit-applicant-cv"
                       >
                         {submitting ? "Uploading file details..." : "Submit applications CV & profile"}
@@ -418,7 +439,8 @@ export default function CareerView() {
                 </div>
               ) : (
                 <div className="h-full min-h-[350px] border border-dashed border-gray-300 rounded-3xl bg-slate-50/30 flex flex-col items-center justify-center text-center p-6 space-y-4">
-                  <div className="w-14 h-14 rounded-full bg-sky-50 text-brand-primary flex items-center justify-center shadow-sm">
+                  <div className="w-14 h-14 rounded-full bg-sky-50 text-[#122e42]
+] flex items-center justify-center shadow-sm">
                     <Award size={24} />
                   </div>
                   <div className="space-y-1.5">

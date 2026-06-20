@@ -47,7 +47,8 @@ export default function GovernanceView() {
       {/* Intro Header */}
       <section className="bg-slate-50 py-16 md:py-24 border-b border-slate-100 relative">
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10 space-y-6">
-          <span className="text-[10px] font-bold font-mono tracking-widest text-brand-primary bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100">
+          <span className="text-[10px] font-bold font-mono tracking-widest text-[#122e42]
+] bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100">
             Professional Assessment
           </span>
           <h1 className="text-3xl md:text-5xl font-heading font-bold text-gray-950 tracking-tight leading-tight">
@@ -64,7 +65,8 @@ export default function GovernanceView() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           
           <div className="text-center space-y-3 mb-16">
-            <h2 className="text-2xl md:text-3.5xl font-heading font-bold text-brand-primary leading-tight">
+            <h2 className="text-2xl md:text-3.5xl font-heading font-bold text-[#122e42]
+] leading-tight">
               Our Safety Safeguarding Pillars
             </h2>
             <p className="text-gray-600 text-xs md:text-sm font-light max-w-md mx-auto">
@@ -80,11 +82,13 @@ export default function GovernanceView() {
                   key={idx}
                   className="bg-sky-50/40 p-6 md:p-8 rounded-3xl border border-sky-150 flex flex-col md:flex-row gap-5 hover:bg-sky-50 transition-colors"
                 >
-                  <div className="w-12 h-12 rounded-full bg-brand-primary text-white flex items-center justify-center flex-shrink-0 shadow-sm">
+                  <div className="w-12 h-12 rounded-full bg-[#122e42]
+] text-white flex items-center justify-center flex-shrink-0 shadow-sm">
                     <IconComp size={20} />
                   </div>
                   <div className="space-y-2">
-                    <h3 className="font-heading font-bold text-brand-primary text-base md:text-lg">
+                    <h3 className="font-heading font-bold text-[#122e42]
+] text-base md:text-lg">
                       {pil.title}
                     </h3>
                     <p className="text-gray-650 text-xs md:text-sm leading-relaxed font-light">
@@ -111,8 +115,9 @@ export default function GovernanceView() {
           <div className="bg-white p-6 md:p-10 border rounded-3xl space-y-8 shadow-sm">
             
             <div className="space-y-2.5">
-              <h3 className="font-heading font-bold text-brand-primary text-base md:text-lg flex items-center gap-2">
-                <CheckCircle size={18} className="text-brand-accent" /> Medication Management (eMAR)
+              <h3 className="font-heading font-bold text-[#122e42]
+] text-base md:text-lg flex items-center gap-2">
+                <CheckCircle size={18} className="text-[#e9cb8d]" /> Medication Management (eMAR)
               </h3>
               <p className="text-gray-650 font-light text-xs md:text-sm leading-relaxed">
                 Carers administer medicine, fluids, and topical applications utilizing specialized digital tracking units. Reductions, misses, or reactions trigger instant emergency notifications to our nursing coordinators, who contact family practitioners and relatives immediately.
@@ -120,8 +125,9 @@ export default function GovernanceView() {
             </div>
 
             <div className="space-y-2.5">
-              <h3 className="font-heading font-bold text-brand-primary text-base md:text-lg flex items-center gap-2">
-                <CheckCircle size={18} className="text-brand-accent" /> Safer Manual Handling Protocols
+              <h3 className="font-heading font-bold text-[#122e42]
+] text-base md:text-lg flex items-center gap-2">
+                <CheckCircle size={18} className="text-[#e9cb8d]" /> Safer Manual Handling Protocols
               </h3>
               <p className="text-gray-650 font-light text-xs md:text-sm leading-relaxed">
                 We design manual lifting, standing transfers, wheelchair assistance, and high hoist processes with professional-trained carers. Ergonomic checks are run inside your beloved household to avoid accidents and protect skin integrity.
@@ -129,8 +135,9 @@ export default function GovernanceView() {
             </div>
 
             <div className="space-y-2.5">
-              <h3 className="font-heading font-bold text-brand-primary text-base md:text-lg flex items-center gap-2">
-                <CheckCircle size={18} className="text-brand-accent" /> Strict Incident & Grievance Investigations
+              <h3 className="font-heading font-bold text-[#122e42]
+] text-base md:text-lg flex items-center gap-2">
+                <CheckCircle size={18} className="text-[#e9cb8d]" /> Strict Incident & Grievance Investigations
               </h3>
               <p className="text-gray-650 font-light text-xs md:text-sm leading-relaxed">
                 Even minor incidents and falls are logged into our computerized databases. All incidents go through exhaustive formal analysis to see how we can optimize schedules, adjust lighting, or deploy mechanical assists to protect your comfort next time.

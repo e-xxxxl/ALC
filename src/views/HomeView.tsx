@@ -54,7 +54,8 @@ export default function HomeView() {
       <section className="bg-slate-50 py-16 md:py-24 relative overflow-hidden" id="hero-section">
         {/* Decorative soft circles, avoiding clutter */}
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-sky-100/50 rounded-full translate-x-1/3 -translate-y-1/3 pointer-events-none"></div>
-        <div className="absolute bottom-0 left-0 w-80 h-80 bg-brand-primary/5 rounded-full -translate-x-1/3 translate-y-1/3 pointer-events-none"></div>
+        <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#122e42]
+]/5 rounded-full -translate-x-1/3 translate-y-1/3 pointer-events-none"></div>
 
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10 space-y-8">
         
@@ -70,7 +71,9 @@ export default function HomeView() {
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4">
             <Link 
               href="/contact-us"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brand-primary hover:bg-brand-primary/95 text-white font-bold text-xs md:text-sm px-6 py-3 rounded shadow-lg hover:scale-[1.01] active:scale-[0.99] transition-all"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#122e42]
+] hover:bg-[#122e42]
+]/95 text-white font-bold text-xs md:text-sm px-6 py-3 rounded shadow-lg hover:scale-[1.01] active:scale-[0.99] transition-all"
               id="hero-primary-cta"
             >
               <Heart size={16} className="fill-white/20" />
@@ -108,7 +111,7 @@ export default function HomeView() {
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
               
               <div className="relative z-10 space-y-4">
-                <span className="text-[10px] font-mono font-bold tracking-widest text-brand-accent bg-amber-50 px-3 py-1 rounded-full uppercase border border-amber-300">
+                <span className="text-[10px] font-mono font-bold tracking-widest text-[#e9cb8d] bg-amber-50 px-3 py-1 rounded-full uppercase border border-amber-300">
                   Ages 18+
                 </span>
                 <p className="text-white font-heading font-semibold text-lg md:text-xl lg:text-2xl leading-snug">
@@ -117,7 +120,9 @@ export default function HomeView() {
                 <div className="pt-2">
                   <Link 
                     href="/our-services/adult-care"
-                    className="inline-flex items-center gap-2 bg-brand-primary text-white text-xs font-semibold px-5 py-3 rounded-xl hover:bg-brand-primary/90 transition-all shadow-md hover:scale-[1.02]"
+                    className="inline-flex items-center gap-2 bg-[#122e42]
+] text-white text-xs font-semibold px-5 py-3 rounded-xl hover:bg-[#122e42]
+]/90 transition-all shadow-md hover:scale-[1.02]"
                   >
                     Explore adult services
                   </Link>
@@ -152,7 +157,7 @@ export default function HomeView() {
                 <div className="pt-2">
                   <Link 
                     href="/our-services/child-care"
-                    className="inline-flex items-center gap-2 bg-brand-accent text-white text-xs font-semibold px-5 py-3 rounded-xl hover:bg-brand-accent/90 transition-all shadow-md hover:scale-[1.02]"
+                    className="inline-flex items-center gap-2 bg-[#e9cb8d] text-white text-xs font-semibold px-5 py-3 rounded-xl hover:bg-[#e9cb8d]/90 transition-all shadow-md hover:scale-[1.02]"
                   >
                     Explore children services
                   </Link>
@@ -183,11 +188,12 @@ export default function HomeView() {
             <div className="lg:col-span-7 space-y-10">
               
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-full border-2 border-brand-accent flex items-center justify-center text-brand-accent flex-shrink-0 bg-white shadow-sm mt-1">
+                <div className="w-10 h-10 rounded-full border-2 border-[#e9cb8d] flex items-center justify-center text-[#e9cb8d] flex-shrink-0 bg-white shadow-sm mt-1">
                   <Plus size={18} className="stroke-[3]" />
                 </div>
                 <div className="space-y-1">
-                  <h3 className="text-lg font-heading font-semibold text-brand-primary">Daily Support</h3>
+                  <h3 className="text-lg font-heading font-semibold text-[#122e42]
+]">Daily Support</h3>
                   <p className="text-gray-600 text-xs md:text-sm leading-relaxed font-light">
                     Assistance with daily tasks; washing, dressing, meals, and medication, so you can feel confident and stay independent at home.
                   </p>
@@ -195,11 +201,12 @@ export default function HomeView() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-full border-2 border-brand-accent flex items-center justify-center text-brand-accent flex-shrink-0 bg-white shadow-sm mt-1">
+                <div className="w-10 h-10 rounded-full border-2 border-[#e9cb8d] flex items-center justify-center text-[#e9cb8d] flex-shrink-0 bg-white shadow-sm mt-1">
                   <Plus size={18} className="stroke-[3]" />
                 </div>
                 <div className="space-y-1">
-                  <h3 className="text-lg font-heading font-semibold text-brand-primary">Companionship</h3>
+                  <h3 className="text-lg font-heading font-semibold text-[#122e42]
+]">Companionship</h3>
                   <p className="text-gray-600 text-xs md:text-sm leading-relaxed font-light">
                     Warm, meaningful connections that brighten your day, through friendly chats, walks, or enjoying hobbies together.
                   </p>
@@ -207,11 +214,12 @@ export default function HomeView() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-full border-2 border-brand-accent flex items-center justify-center text-brand-accent flex-shrink-0 bg-white shadow-sm mt-1">
+                <div className="w-10 h-10 rounded-full border-2 border-[#e9cb8d] flex items-center justify-center text-[#e9cb8d] flex-shrink-0 bg-white shadow-sm mt-1">
                   <Plus size={18} className="stroke-[3]" />
                 </div>
                 <div className="space-y-1">
-                  <h3 className="text-lg font-heading font-semibold text-brand-primary">Specialist Care</h3>
+                  <h3 className="text-lg font-heading font-semibold text-[#122e42]
+]">Specialist Care</h3>
                   <p className="text-gray-600 text-xs md:text-sm leading-relaxed font-light">
                     Specialized support for complex needs, dementia, mobility challenges, or post-hospital recovery, delivered patiently and with respect.
                   </p>
@@ -221,7 +229,9 @@ export default function HomeView() {
               <div className="pt-4">
                 <Link 
                   href="/our-services" 
-                  className="inline-flex items-center gap-2 bg-brand-primary text-white text-xs font-semibold px-6 py-3.5 rounded-xl shadow-md hover:bg-brand-primary/95 transition-all"
+                  className="inline-flex items-center gap-2 bg-[#122e42]
+] text-white text-xs font-semibold px-6 py-3.5 rounded-xl shadow-md hover:bg-[#122e42]
+]/95 transition-all"
                 >
                   <Plus size={14} className="stroke-[2.5]" />
                   <span>Explore all our services</span>
@@ -233,9 +243,11 @@ export default function HomeView() {
             {/* Right: Circular double ringed functional auto-rotation carousel */}
             <div className="lg:col-span-5 flex flex-col items-center justify-center space-y-6">
               
-              <div className="relative w-[320px] h-[320px] md:w-[360px] md:h-[360px] rounded-full p-3 border-4 border-brand-primary max-w-full">
+              <div className="relative w-[320px] h-[320px] md:w-[360px] md:h-[360px] rounded-full p-3 border-4 border-[#122e42]
+] max-w-full">
                 {/* Outer ring border offset */}
-                <div className="absolute inset-0 rounded-full border-2 border-brand-primary/20 translate-x-1 translate-y-1"></div>
+                <div className="absolute inset-0 rounded-full border-2 border-[#122e42]
+]/20 translate-x-1 translate-y-1"></div>
                 
                 {/* Main image container */}
                 <div className="w-full h-full rounded-full overflow-hidden relative bg-slate-150">
@@ -263,7 +275,7 @@ export default function HomeView() {
                     onClick={() => setActiveSlide(idx)}
                     className={`w-2.5 h-2.5 rounded-full cursor-pointer transition-all ${
                       idx === activeSlide 
-                        ? "bg-brand-primary w-6" 
+                        ? "bg-[#122e42] w-6" 
                         : "bg-slate-300"
                     }`}
                     aria-label={`Show slide image ${idx + 1}`}
@@ -282,7 +294,8 @@ export default function HomeView() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           
           <div className="max-w-3xl space-y-4 mb-16">
-            <span className="text-[10px] uppercase font-bold tracking-widest text-brand-primary bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100">
+            <span className="text-[10px] uppercase font-bold tracking-widest text-[#122e42]
+] bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100">
               Clear & Straightforward
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-950 tracking-tight leading-tight">
@@ -302,12 +315,13 @@ export default function HomeView() {
                 {PROCESS_STEPS.map((stepItem) => (
                   <div key={stepItem.step} className="relative">
                     {/* Circle number */}
-                    <div className="absolute -left-[39px] top-0 w-8 h-8 rounded-full bg-brand-accent text-white font-bold text-xs flex items-center justify-center shadow-md">
+                    <div className="absolute -left-[39px] top-0 w-8 h-8 rounded-full bg-[#e9cb8d] text-white font-bold text-xs flex items-center justify-center shadow-md">
                       {stepItem.step}
                     </div>
                     {/* Details */}
                     <div className="space-y-1.5">
-                      <h4 className="text-base font-semibold text-brand-primary font-heading">
+                      <h4 className="text-base font-semibold text-[#122e42]
+] font-heading">
                         {stepItem.title}
                       </h4>
                       <p className="text-gray-600 text-xs md:text-sm font-light leading-relaxed">
@@ -323,7 +337,9 @@ export default function HomeView() {
               <div className="flex flex-wrap gap-3 pt-8 pl-4">
                 <Link 
                   href="/contact-us" 
-                  className="bg-brand-primary text-white hover:bg-brand-primary/95 text-xs font-semibold px-5 py-3 rounded-lg flex items-center gap-1.5 shadow-md hover:scale-[1.01]"
+                  className="bg-[#122e42]
+] text-white hover:bg-[#122e42]
+]/95 text-xs font-semibold px-5 py-3 rounded-lg flex items-center gap-1.5 shadow-md hover:scale-[1.01]"
                 >
                   <Check size={14} /> Get started
                 </Link>
@@ -347,7 +363,8 @@ export default function HomeView() {
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-brand-primary/10 transition-colors group-hover:bg-transparent"></div>
+                <div className="absolute inset-0 bg-[#122e42]
+]/10 transition-colors group-hover:bg-transparent"></div>
               </div>
 
               {/* Image 2 - bottom left offset */}
@@ -358,7 +375,8 @@ export default function HomeView() {
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-brand-primary/15 transition-colors group-hover:bg-transparent"></div>
+                <div className="absolute inset-0 bg-[#122e42]
+]/15 transition-colors group-hover:bg-transparent"></div>
               </div>
 
             </div>
@@ -389,13 +407,15 @@ export default function HomeView() {
                 className="bg-sky-50/60 hover:bg-sky-50 border border-sky-100/50 p-6 md:p-8 rounded-3xl space-y-4 hover:shadow-md hover:-translate-y-1 transition-all duration-300"
               >
                 {/* Dark teal circular icon base with white icons */}
-                <div className="w-12 h-12 rounded-full bg-brand-primary text-white flex items-center justify-center shadow-md">
+                <div className="w-12 h-12 rounded-full bg-[#122e42]
+] text-white flex items-center justify-center shadow-md">
                   {idx === 0 && <ShieldCheck size={20} />}
                   {idx === 1 && <User size={20} />}
                   {idx === 2 && <Award size={20} />}
                 </div>
                 
-                <h3 className="font-heading font-bold text-brand-primary text-lg">
+                <h3 className="font-heading font-bold text-[#122e42]
+] text-lg">
                   {card.title}
                 </h3>
                 

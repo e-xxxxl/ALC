@@ -86,7 +86,8 @@ export default function ContactView() {
       {/* Page Intro Header */}
       <section className="bg-slate-50 py-16 md:py-24 border-b border-slate-100 relative">
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10 space-y-6">
-          <span className="text-[10px] font-bold font-mono tracking-widest text-brand-primary bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100">
+          <span className="text-[10px] font-bold font-mono tracking-widest text-[#122e42]
+] bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100">
             Immediate Response
           </span>
           <h1 className="text-3xl md:text-5xl font-heading font-bold text-gray-950 tracking-tight leading-tight">
@@ -120,7 +121,9 @@ export default function ContactView() {
                   <div className="pt-2">
                     <button 
                       onClick={() => setShowSuccess(false)}
-                      className="bg-brand-primary hover:bg-brand-primary/95 text-white font-semibold text-xs px-6 py-3 rounded-xl transition duration-200 cursor-pointer"
+                      className="bg-[#122e42]
+] hover:bg-[#122e42]
+]/95 text-white font-semibold text-xs px-6 py-3 rounded-xl transition duration-200 cursor-pointer"
                     >
                       Submit Another Query
                     </button>
@@ -130,8 +133,9 @@ export default function ContactView() {
                 <form onSubmit={handleSubmit} className="space-y-6">
                   
                   <div className="space-y-2">
-                    <h3 className="font-heading font-bold text-brand-primary text-xl flex items-center gap-2">
-                      <ClipboardCheck size={20} className="text-brand-accent" /> Enquiry Form
+                    <h3 className="font-heading font-bold text-[#122e42]
+] text-xl flex items-center gap-2">
+                      <ClipboardCheck size={20} className="text-[#e9cb8d]" /> Enquiry Form
                     </h3>
                     <p className="text-gray-500 text-xs font-light">
                       * Indicates a required input parameter. We respect HIPAA and UK GDPR standards completely.
@@ -157,7 +161,9 @@ export default function ContactView() {
                         value={formData.fullName}
                         onChange={handleChange}
                         placeholder="John Doe"
-                        className="w-full bg-white border border-gray-200 focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-4 py-3 text-xs md:text-sm outline-none transition-all"
+                        className="w-full bg-white border border-gray-200 focus:border-[#122e42]
+] focus:ring-2 focus:ring-[#122e42]
+]/10 rounded-xl px-4 py-3 text-xs md:text-sm outline-none transition-all"
                       />
                     </div>
 
@@ -172,7 +178,9 @@ export default function ContactView() {
                         value={formData.email}
                         onChange={handleChange}
                         placeholder="john@example.com"
-                        className="w-full bg-white border border-gray-200 focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-4 py-3 text-xs md:text-sm outline-none transition-all"
+                        className="w-full bg-white border border-gray-200 focus:border-[#122e42]
+] focus:ring-2 focus:ring-[#122e42]
+]/10 rounded-xl px-4 py-3 text-xs md:text-sm outline-none transition-all"
                       />
                     </div>
                   </div>
@@ -189,7 +197,9 @@ export default function ContactView() {
                         value={formData.phone}
                         onChange={handleChange}
                         placeholder="e.g. 07932880794"
-                        className="w-full bg-white border border-gray-200 focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-4 py-3 text-xs md:text-sm outline-none transition-all"
+                        className="w-full bg-white border border-gray-200 focus:border-[#122e42]
+] focus:ring-2 focus:ring-[#122e42]
+]/10 rounded-xl px-4 py-3 text-xs md:text-sm outline-none transition-all"
                       />
                     </div>
 
@@ -204,7 +214,9 @@ export default function ContactView() {
                         value={formData.postcode}
                         onChange={handleChange}
                         placeholder="e.g. SG18 8JG"
-                        className="w-full bg-white border border-gray-200 focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-4 py-3 text-xs md:text-sm outline-none transition-all"
+                        className="w-full bg-white border border-gray-200 focus:border-[#122e42]
+] focus:ring-2 focus:ring-[#122e42]
+]/10 rounded-xl px-4 py-3 text-xs md:text-sm outline-none transition-all"
                       />
                     </div>
                   </div>
@@ -217,7 +229,9 @@ export default function ContactView() {
                       name="careType"
                       value={formData.careType}
                       onChange={handleChange}
-                      className="w-full bg-white border border-gray-200 focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-4 py-3 text-xs md:text-sm outline-none transition-all cursor-pointer"
+                      className="w-full bg-white border border-gray-200 focus:border-[#122e42]
+] focus:ring-2 focus:ring-[#122e42]
+]/10 rounded-xl px-4 py-3 text-xs md:text-sm outline-none transition-all cursor-pointer"
                     >
                       <option value="personal-care">Personal Care (Adults)</option>
                       <option value="child-care">Pediatric Child Care (0-18 Years)</option>
@@ -238,7 +252,9 @@ export default function ContactView() {
                       value={formData.message}
                       onChange={handleChange}
                       placeholder="My mother lives alone in Biggleswade and is recovering from joint surgery next month..."
-                      className="w-full bg-white border border-gray-200 focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl px-4 py-3 text-xs md:text-sm outline-none transition-all resize-y"
+                      className="w-full bg-white border border-gray-200 focus:border-[#122e42]
+] focus:ring-2 focus:ring-[#122e42]
+]/10 rounded-xl px-4 py-3 text-xs md:text-sm outline-none transition-all resize-y"
                     ></textarea>
                   </div>
 
@@ -250,7 +266,9 @@ export default function ContactView() {
                       name="agreeTerms"
                       checked={formData.agreeTerms}
                       onChange={handleChange}
-                      className="mt-1 w-4 h-4 text-brand-primary border-gray-300 rounded focus:ring-brand-primary"
+                      className="mt-1 w-4 h-4 text-[#122e42]
+] border-gray-300 rounded focus:ring-[#122e42]
+]"
                     />
                     <label htmlFor="agreeTerms" className="text-xs text-gray-500 font-light leading-snug cursor-pointer select-none">
                       I agree to the privacy statement and consent to Affectionate Care Living matching our details with local medical specialists to coordinate home assessment scheduling.
@@ -261,7 +279,9 @@ export default function ContactView() {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="w-full bg-brand-primary hover:bg-brand-primary/95 text-white font-bold text-xs uppercase tracking-wider py-4 rounded-xl shadow-lg transition-all duration-200 flex items-center justify-center gap-2 disabled:bg-slate-300 disabled:cursor-not-allowed cursor-pointer"
+                    className="w-full bg-[#122e42]
+] hover:bg-[#122e42]
+]/95 text-white font-bold text-xs uppercase tracking-wider py-4 rounded-xl shadow-lg transition-all duration-200 flex items-center justify-center gap-2 disabled:bg-slate-300 disabled:cursor-not-allowed cursor-pointer"
                     id="submit-contact-form"
                   >
                     <span>{loading ? "Transmitting assessment request..." : "Submit secure request"}</span>
@@ -277,7 +297,8 @@ export default function ContactView() {
             <div className="lg:col-span-5 space-y-8">
               
               {/* Vitals Info card */}
-              <div className="bg-brand-primary text-white p-6 md:p-8 rounded-3xl space-y-6 shadow-md relative overflow-hidden">
+              <div className="bg-[#122e42]
+] text-white p-6 md:p-8 rounded-3xl space-y-6 shadow-md relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-white/5 rounded-full translate-x-12 -translate-y-12"></div>
                 
                 <h3 className="font-heading font-bold text-lg md:text-xl text-white">Emergency Hotline Lines</h3>
@@ -285,7 +306,7 @@ export default function ContactView() {
                 <div className="space-y-4 text-xs font-light">
                   <div className="flex items-center gap-3">
                     <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center">
-                      <Phone size={14} className="text-brand-accent" />
+                      <Phone size={14} className="text-[#e9cb8d]" />
                     </div>
                     <div>
                       <span className="block text-sky-200">Adviser Hotline</span>
@@ -295,7 +316,7 @@ export default function ContactView() {
 
                   <div className="flex items-center gap-3">
                     <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center">
-                      <Phone size={14} className="text-brand-accent" />
+                      <Phone size={14} className="text-[#e9cb8d]" />
                     </div>
                     <div>
                       <span className="block text-sky-200">Secondary Backup Mobile</span>
@@ -305,7 +326,7 @@ export default function ContactView() {
 
                   <div className="flex items-center gap-3">
                     <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center">
-                      <Mail size={14} className="text-brand-accent" />
+                      <Mail size={14} className="text-[#e9cb8d]" />
                     </div>
                     <div>
                       <span className="block text-sky-200">Secure Office Email Address</span>
@@ -318,14 +339,16 @@ export default function ContactView() {
               {/* Office Address Card */}
               <div className="border border-slate-200 bg-slate-50/40 p-6 rounded-3xl space-y-4">
                 <div className="flex items-center gap-2">
-                  <MapPin size={20} className="text-brand-accent" />
-                  <h4 className="font-heading font-bold text-brand-primary text-base">Local Biggleswade Office</h4>
+                  <MapPin size={20} className="text-[#e9cb8d]" />
+                  <h4 className="font-heading font-bold text-[#122e42]
+] text-base">Local Biggleswade Office</h4>
                 </div>
                 <p className="text-gray-650 text-xs md:text-sm font-light leading-relaxed">
                   We are headquartered directly inside Biggleswade, allowing us to deploy, monitor, and visit families within minutes across Sandy, Potton, Langford, and Bedfordshire.
                 </p>
                 <div className="bg-white border rounded-xl p-4 font-mono text-[10.5px] text-gray-700 leading-normal shadow-sm">
-                  <strong className="block text-brand-primary font-sans text-[11px] mb-1">Affectionate Living Care</strong>
+                  <strong className="block text-[#122e42]
+] font-sans text-[11px] mb-1">Affectionate Living Care</strong>
                   {ADDRESS_UK}
                 </div>
               </div>
@@ -337,11 +360,13 @@ export default function ContactView() {
                 <div className="absolute inset-0 bg-[linear-gradient(to_right,#e5e7eb_1px,transparent_1px),linear-gradient(to_bottom,#e5e7eb_1px,transparent_1px)] bg-[size:1.5rem_1.5rem]" />
                 
                 <div className="relative z-10 space-y-3">
-                  <div className="w-10 h-10 rounded-full bg-brand-primary text-white flex items-center justify-center mx-auto shadow-md animate-bounce">
+                  <div className="w-10 h-10 rounded-full bg-[#122e42]
+] text-white flex items-center justify-center mx-auto shadow-md animate-bounce">
                     <MapPin size={18} />
                   </div>
                   <div>
-                    <span className="font-heading font-bold text-brand-primary block text-xs">Biggleswade Office (Evans Grove)</span>
+                    <span className="font-heading font-bold text-[#122e42]
+] block text-xs">Biggleswade Office (Evans Grove)</span>
                     <span className="text-gray-500 font-light text-[10px] uppercase tracking-wide font-mono">SG18 8JG, Bedfordshire</span>
                   </div>
                 </div>

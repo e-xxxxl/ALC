@@ -21,10 +21,11 @@ export default function CTABanner({
   href = "/contact-us"
 }: CTABannerProps) {
   return (
-    <section className="bg-brand-primary text-white py-16 md:py-20 relative overflow-hidden" id="cta-banner-section">
+    <section className="bg-[#122e42]
+] text-white py-16 md:py-20 relative overflow-hidden" id="cta-banner-section">
       {/* Abstract warm shapes simulating affectionate care, no slop blobs */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full border border-white/5 translate-x-20 -translate-y-20 flex-shrink-0 pointer-events-none"></div>
-      <div className="absolute -bottom-10 left-10 w-48 h-48 bg-brand-accent/10 rounded-full blur-2xl pointer-events-none"></div>
+      <div className="absolute -bottom-10 left-10 w-48 h-48 bg-[#e9cb8d]/10 rounded-full blur-2xl pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
@@ -40,7 +41,7 @@ export default function CTABanner({
             <div className="pt-2">
               <Link
                 href={href}
-                className="inline-flex items-center gap-2 bg-brand-accent hover:bg-brand-accent/90 text-white font-semibold text-xs md:text-sm px-6 py-3 rounded-xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
+                className="inline-flex items-center gap-2 bg-[#e9cb8d] hover:bg-[#e9cb8d]/90 text-white font-semibold text-xs md:text-sm px-6 py-3 rounded-xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
                 id="cta-banner-action-button"
               >
                 <span>{buttonText}</span>
@@ -52,7 +53,7 @@ export default function CTABanner({
           {/* Logo Mark Right */}
           <div className="lg:col-span-4 flex justify-center lg:justify-end">
             <div className="flex items-center gap-3 bg-white/5 backdrop-blur-sm px-6 py-5 rounded-3xl border border-white/10 group hover:border-white/20 transition-colors duration-300">
-              <div className="w-12 h-12 rounded-full bg-brand-accent flex items-center justify-center text-white relative">
+              <div className="w-12 h-12 rounded-full bg-[#e9cb8d] flex items-center justify-center text-white relative">
                 <Heart className="w-6 h-6 text-white fill-white animate-pulse" />
               </div>
               <div className="flex flex-col text-left">

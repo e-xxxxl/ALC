@@ -85,7 +85,8 @@ function AppContent() {
           We can't find the requested directory on affectionatelivingcare.com. Let's return to safety.
         </p>
         <div className="pt-2">
-          <a href="/" className="inline-flex items-center gap-1.5 bg-brand-primary text-white font-semibold text-xs px-5 py-3 rounded-xl shadow-md">
+          <a href="/" className="inline-flex items-center gap-1.5 bg-[#122e42]
+] text-white font-semibold text-xs px-5 py-3 rounded-xl shadow-md">
             Return Home &rarr;
           </a>
         </div>

@@ -59,7 +59,8 @@ export default function FAQAccordion({
           {/* Left Column Info / Headings */}
           <div className="lg:col-span-5 space-y-6">
            
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-brand-primary leading-tight tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-[#122e42]
+] leading-tight tracking-tight">
               {title}
             </h2>
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
@@ -70,7 +71,9 @@ export default function FAQAccordion({
               <div className="pt-4 flex flex-col sm:flex-row gap-3">
                 <Link 
                   href="/faqs" 
-                  className="inline-flex items-center justify-center bg-brand-primary hover:bg-brand-primary/95 text-white font-semibold px-5 py-3 rounded-xl shadow-md transition-all duration-200 text-sm hover:scale-[1.01]"
+                  className="inline-flex items-center justify-center bg-[#122e42]
+] hover:bg-[#122e42]
+]/95 text-white font-semibold px-5 py-3 rounded-xl shadow-md transition-all duration-200 text-sm hover:scale-[1.01]"
                 >
                   More FAQs
                 </Link>
@@ -93,7 +96,7 @@ export default function FAQAccordion({
                   key={faq.id} 
                   className={`bg-white border rounded-2xl overflow-hidden transition-all duration-300 ${
                     isExpanded 
-                      ? "border-brand-primary shadow-md ring-1 ring-brand-primary/10" 
+                      ? "border-[#122e42] shadow-md ring-1 ring-[#122e42]/10" 
                       : "border-gray-200 hover:border-gray-300 shadow-sm"
                   }`}
                 >
@@ -107,7 +110,7 @@ export default function FAQAccordion({
                       {faq.question}
                     </span>
                     <div className={`p-1.5 rounded-full ${
-                      isExpanded ? "bg-brand-primary text-white" : "bg-slate-100 text-gray-600"
+                      isExpanded ? "bg-[#122e42]text-white" : "bg-slate-100 text-gray-600"
                     } transition-colors duration-300 flex-shrink-0`}>
                       <Plus 
                         size={16} 

@@ -57,7 +57,8 @@ export default function WhyUsView() {
       {/* Intro Header */}
       <section className="bg-slate-50 py-16 md:py-24 border-b border-slate-100 relative">
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10 space-y-6">
-          <span className="text-[10px] font-bold font-mono tracking-widest text-brand-primary bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100">
+          <span className="text-[10px] font-bold font-mono tracking-widest text-[#122e42]
+] bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100">
             Compare The Difference
           </span>
           <h1 className="text-3xl md:text-5xl font-heading font-bold text-gray-950 tracking-tight leading-tight">
@@ -74,7 +75,8 @@ export default function WhyUsView() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           
           <div className="text-center space-y-3 mb-16">
-            <h2 className="text-2xl md:text-3.5xl font-heading font-bold text-brand-primary">Our Care Standard Advantages</h2>
+            <h2 className="text-2xl md:text-3.5xl font-heading font-bold text-[#122e42]
+]">Our Care Standard Advantages</h2>
             <p className="text-gray-600 text-xs md:text-sm font-light max-w-md mx-auto">
               How we match premium, tailored support to your unique household rhythms.
             </p>
@@ -88,10 +90,12 @@ export default function WhyUsView() {
                   key={idx}
                   className="bg-sky-50/40 hover:bg-sky-50 p-6 md:p-8 rounded-3xl border border-sky-100/50 hover:shadow-md hover:-translate-y-1 transition-all duration-300 space-y-4"
                 >
-                  <div className="w-10 h-10 rounded-full bg-brand-primary text-white flex items-center justify-center shadow-sm">
+                  <div className="w-10 h-10 rounded-full bg-[#122e42]
+] text-white flex items-center justify-center shadow-sm">
                     <IconComp size={18} />
                   </div>
-                  <h3 className="font-heading font-bold text-brand-primary text-base">
+                  <h3 className="font-heading font-bold text-[#122e42]
+] text-base">
                     {pt.title}
                   </h3>
                   <p className="text-gray-600 text-xs md:text-sm leading-relaxed font-light">
@@ -114,10 +118,11 @@ export default function WhyUsView() {
           </div>
 
           <div className="bg-white rounded-3xl border border-slate-200/80 overflow-hidden shadow-sm">
-            <div className="grid grid-cols-1 md:grid-cols-3 bg-brand-primary text-white p-4 font-heading font-semibold text-xs md:text-sm tracking-wide text-center uppercase md:divide-x md:divide-sky-900">
+            <div className="grid grid-cols-1 md:grid-cols-3 bg-[#122e42]
+] text-white p-4 font-heading font-semibold text-xs md:text-sm tracking-wide text-center uppercase md:divide-x md:divide-sky-900">
               <div className="py-1 md:text-left md:pl-4">Care Feature</div>
               <div className="py-1">Generic Agencies</div>
-              <div className="py-1 text-brand-accent">Affectionate Living Care</div>
+              <div className="py-1 text-[#e9cb8d]">Affectionate Living Care</div>
             </div>
 
             <div className="divide-y divide-slate-100 text-xs text-slate-700 font-light">
@@ -125,25 +130,29 @@ export default function WhyUsView() {
               <div className="grid grid-cols-1 md:grid-cols-3 p-4 items-center text-center md:divide-x md:divide-slate-50">
                 <div className="font-semibold text-gray-900 md:text-left py-1 text-xs">Care Worker Consistency</div>
                 <div className="py-1 text-gray-400">Strangers rotated daily</div>
-                <div className="py-1 font-semibold text-brand-primary bg-sky-50/50 rounded-lg">Small dedicated home microteam</div>
+                <div className="py-1 font-semibold text-[#122e42]
+] bg-sky-50/50 rounded-lg">Small dedicated home microteam</div>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-3 p-4 items-center text-center md:divide-x md:divide-slate-50">
                 <div className="font-semibold text-gray-900 md:text-left py-1 text-xs">Personality Matching</div>
                 <div className="py-1 text-gray-400">Assigned purely on availability</div>
-                <div className="py-1 font-semibold text-brand-primary bg-sky-50/50 rounded-lg">Hobbies & compatibility-focused match</div>
+                <div className="py-1 font-semibold text-[#122e42]
+] bg-sky-50/50 rounded-lg">Hobbies & compatibility-focused match</div>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-3 p-4 items-center text-center md:divide-x md:divide-slate-50">
                 <div className="font-semibold text-gray-900 md:text-left py-1 text-xs">UK Registered Vetting</div>
                 <div className="py-1 text-gray-400">Basic paper checks</div>
-                <div className="py-1 font-semibold text-brand-primary bg-sky-50/50 rounded-lg">Enhanced DBS, character checks, NVQ standards</div>
+                <div className="py-1 font-semibold text-[#122e42]
+] bg-sky-50/50 rounded-lg">Enhanced DBS, character checks, NVQ standards</div>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-3 p-4 items-center text-center md:divide-x md:divide-slate-50">
                 <div className="font-semibold text-gray-900 md:text-left py-1 text-xs">Urgent Local Access</div>
                 <div className="py-1 text-gray-400">Call center hold cues</div>
-                <div className="py-1 font-semibold text-brand-primary bg-sky-50/50 rounded-lg">Local Biggleswade manager hotline</div>
+                <div className="py-1 font-semibold text-[#122e42]
+] bg-sky-50/50 rounded-lg">Local Biggleswade manager hotline</div>
               </div>
 
             </div>

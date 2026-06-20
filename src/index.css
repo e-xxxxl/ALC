@@ -6,8 +6,9 @@
   --font-heading: "Space Grotesk", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
   
-  --color-brand-primary: #0D5273;
-  --color-brand-accent: #E5921A;
+  --color-[#122e42]
+]: #0D5273;
+  --color-[#e9cb8d]: #E5921A;
 }
 
 @layer base {

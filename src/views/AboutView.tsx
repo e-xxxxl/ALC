@@ -48,7 +48,8 @@ export default function AboutView() {
       <section className="bg-slate-50 py-16 md:py-24 border-b border-slate-100 relative">
         <div className="absolute inset-0 bg-gradient-to-r from-sky-50 to-white/10 pointer-events-none"></div>
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10 space-y-6">
-          <span className="text-[10px] font-bold font-mono tracking-widest text-brand-primary bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100">
+          <span className="text-[10px] font-bold font-mono tracking-widest text-[#122e42]
+] bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100">
             Learn Our History
           </span>
           <h1 className="text-3xl md:text-5xl font-heading font-bold text-gray-950 tracking-tight leading-tight">
@@ -67,10 +68,11 @@ export default function AboutView() {
             
             {/* Left Column Story */}
             <div className="lg:col-span-6 space-y-6">
-              <div className="inline-flex items-center gap-1.5 bg-amber-50 border border-amber-200 text-brand-accent px-3 py-1.5 rounded-full text-xs font-semibold">
+              <div className="inline-flex items-center gap-1.5 bg-amber-50 border border-amber-200 text-[#e9cb8d] px-3 py-1.5 rounded-full text-xs font-semibold">
                 <HeartHandshake size={14} /> Our Mission
               </div>
-              <h2 className="text-2xl md:text-3.5xl font-heading font-bold text-brand-primary leading-tight">
+              <h2 className="text-2xl md:text-3.5xl font-heading font-bold text-[#122e42]
+] leading-tight">
                 Empowering Seniors & Supporting Children Across Bedfordshire
               </h2>
               
@@ -87,8 +89,9 @@ export default function AboutView() {
               </div>
 
               <div className="pt-2">
-                <blockquote className="border-l-4 border-brand-accent pl-4 py-1.5 bg-amber-50/50 rounded-r-xl">
-                  <p className="text-xs md:text-sm italic font-medium text-brand-primary">
+                <blockquote className="border-l-4 border-[#e9cb8d] pl-4 py-1.5 bg-amber-50/50 rounded-r-xl">
+                  <p className="text-xs md:text-sm italic font-medium text-[#122e42]
+]">
                     "We don't look at care as task compliance. We look at it as protecting family continuity, laughter, and personal independence."
                   </p>
                 </blockquote>
@@ -104,12 +107,14 @@ export default function AboutView() {
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-brand-primary/40 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-[#122e42]
+]/40 to-transparent"></div>
               </div>
 
               {/* Offset Stat Overlay */}
-              <div className="absolute -bottom-6 -left-6 bg-brand-primary text-white p-5 rounded-2xl shadow-xl space-y-1 invisible md:block max-w-xs border border-brand-accent/50">
-                <div className="text-2xl font-bold font-mono text-brand-accent">100% DBS Vetted</div>
+              <div className="absolute -bottom-6 -left-6 bg-[#122e42]
+] text-white p-5 rounded-2xl shadow-xl space-y-1 invisible md:block max-w-xs border border-[#e9cb8d]/50">
+                <div className="text-2xl font-bold font-mono text-[#e9cb8d]">100% DBS Vetted</div>
                 <div className="text-[10px] text-sky-100 font-light leading-relaxed">
                   Every care worker undergoes thorough background checking, identity audits, and professional training block.
                 </div>
@@ -125,7 +130,8 @@ export default function AboutView() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           
           <div className="text-center space-y-3 mb-16">
-            <span className="text-[10px] uppercase font-bold tracking-widest text-brand-primary bg-sky-50 px-3.5 py-1.5 rounded-full">
+            <span className="text-[10px] uppercase font-bold tracking-widest text-[#122e42]
+] bg-sky-50 px-3.5 py-1.5 rounded-full">
               Pillars of Integrity
             </span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-gray-950 tracking-tight">
@@ -142,7 +148,8 @@ export default function AboutView() {
                 key={idx}
                 className="bg-white p-6 md:p-8 rounded-3xl border border-gray-150 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-350 space-y-4"
               >
-                <div className="w-10 h-10 rounded-full bg-slate-100 text-brand-primary flex items-center justify-center font-bold">
+                <div className="w-10 h-10 rounded-full bg-slate-100 text-[#122e42]
+] flex items-center justify-center font-bold">
                   {idx === 0 && <Heart size={18} />}
                   {idx === 1 && <ShieldCheck size={18} />}
                   {idx === 2 && <Users size={18} />}
@@ -162,10 +169,12 @@ export default function AboutView() {
       {/* Trust badging / Quality assurance banner */}
       <section className="py-16 bg-white" id="compliance-notices">
         <div className="max-w-4xl mx-auto px-4 text-center space-y-6">
-          <div className="w-12 h-12 rounded-full bg-brand-primary text-white flex items-center justify-center mx-auto shadow-md">
+          <div className="w-12 h-12 rounded-full bg-[#122e42]
+] text-white flex items-center justify-center mx-auto shadow-md">
             <Building size={20} />
           </div>
-          <h3 className="text-xl font-heading font-semibold text-brand-primary">Our Care Quality Promise</h3>
+          <h3 className="text-xl font-heading font-semibold text-[#122e42]
+]">Our Care Quality Promise</h3>
           <p className="text-gray-600 font-light text-xs md:text-sm leading-relaxed max-w-2xl mx-auto">
             Affectionate Living Care operates under compliance framework guidelines. Our clinical parameters are set and regularly audited by our Clinical Governance Board, making sure that your loved one has absolute protection, continuous professional safety, and premium support standard.
           </p>

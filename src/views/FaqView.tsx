@@ -37,7 +37,8 @@ export default function FaqView() {
       {/* Intro Header */}
       <section className="bg-slate-50 py-16 md:py-24 border-b border-slate-100 relative">
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10 space-y-6">
-          <span className="text-[10px] font-bold font-mono tracking-widest text-brand-primary bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100">
+          <span className="text-[10px] font-bold font-mono tracking-widest text-[#122e42]
+] bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100">
             Clear Answers
           </span>
           <h1 className="text-3xl md:text-5xl font-heading font-bold text-gray-950 tracking-tight leading-tight">
@@ -62,7 +63,9 @@ export default function FaqView() {
                 placeholder="Search queries (e.g. contracts, DBS checks)..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full bg-slate-50 text-xs md:text-sm border border-slate-200 focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 rounded-xl pl-12 pr-4 py-3.5 outline-none transition-all"
+                className="w-full bg-slate-50 text-xs md:text-sm border border-slate-200 focus:border-[#122e42]
+] focus:ring-2 focus:ring-[#122e42]
+]/10 rounded-xl pl-12 pr-4 py-3.5 outline-none transition-all"
                 id="faq-search-input"
               />
             </div>
@@ -75,7 +78,7 @@ export default function FaqView() {
                   onClick={() => setSelectedCategory(cat)}
                   className={`px-4 py-2 rounded-lg text-xs font-semibold border transition-all cursor-pointer ${
                     selectedCategory === cat 
-                      ? "bg-brand-primary text-white border-brand-primary shadow-sm" 
+                      ? "bg-[#122e42] text-white border-[#122e42] shadow-sm" 
                       : "bg-white text-gray-650 border-gray-200 hover:border-gray-300"
                   }`}
                   id={`cat-filter-btn-${cat}`}
@@ -114,7 +117,8 @@ export default function FaqView() {
               We couldn't locate any answers corresponding to your query. Reach out to our team directly!
             </p>
             <div className="pt-2">
-              <Link href="/contact-us" className="inline-flex items-center gap-1.5 bg-brand-primary text-white text-xs font-bold px-4 py-2.5 rounded-lg">
+              <Link href="/contact-us" className="inline-flex items-center gap-1.5 bg-[#122e42]
+] text-white text-xs font-bold px-4 py-2.5 rounded-lg">
                 <span>Talk to a Care Advisor</span> <PhoneCall size={12} />
               </Link>
             </div>
