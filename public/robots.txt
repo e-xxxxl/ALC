@@ -1,0 +1,8 @@
+# Robots.txt file for affectionatelivingcare.com
+# Crucial for search engines crawler discovery and budget management
+
+User-agent: *
+Allow: /
+
+# Direct sitemap reference to accelerate route indexing
+Sitemap: https://affectionatelivingcare.com/sitemap.xml
