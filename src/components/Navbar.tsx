@@ -174,22 +174,18 @@ export default function Navbar() {
 ]" />
                     <span>Why Choose Us?</span>
                   </Link>
-                  <Link href="/career" className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-slate-50 text-gray-800 hover:text-[#122e42]
+                  {/* <Link href="/career" className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-slate-50 text-gray-800 hover:text-[#122e42]
 ] font-medium text-xs transition-colors">
                     <Briefcase size={16} className="text-[#122e42]
 ]" />
                     <span>Join Our Team (Careers)</span>
-                  </Link>
-                  <Link href="/governance" className="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-slate-50 text-gray-800 hover:text-[#122e42]
-] font-medium text-xs transition-colors">
-                    <FileCheck size={16} className="text-[#122e42]
-]" />
-                    <span>Clinical Governance</span>
-                  </Link>
+                  </Link> */}
                 </div>
               )}
             </div>
 
+            <Link href="/our-services/live-in-care" className={activeClass('/our-services/live-in-care')}>Live-in care</Link>
+            <Link href="/governance" className={activeClass('/governance')}>Governance</Link>
             <Link href="/faqs" className={activeClass('/faqs')}>FAQs</Link>
           </nav>
 
@@ -276,11 +272,14 @@ export default function Navbar() {
 ]" />
                   <span className="font-semibold">Careers</span>
                 </Link>
-                <Link href="/governance" className="text-xs p-3 text-center border border-gray-100 hover:border-[#122e42]
-] rounded-xl flex flex-col items-center gap-1 hover:bg-slate-50 col-span-2">
-                  <FileCheck size={16} className="text-[#122e42]
-]" />
-                  <span className="font-semibold">Clinical Governance</span>
+              </div>
+            </div>
+
+            <div className="flex flex-col space-y-1">
+              <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Compliance</span>
+              <div className="space-y-1 pt-1">
+                <Link href="/governance" className={`block py-3 px-3 rounded-lg ${mobileActiveClass('/governance')}`}>
+                  Governance
                 </Link>
               </div>
             </div>

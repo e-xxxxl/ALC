@@ -24,6 +24,7 @@ import CareerView from './views/CareerView';
 import GovernanceView from './views/GovernanceView';
 import ServicesHubView from './views/ServicesHubView';
 import ServiceDetailView from './views/ServiceDetailView';
+import Marquee from './components/Marquee';
 
 // Self-rendering schema data for LocalBusiness (UK home-care provider)
 const localBusinessSchema = {
@@ -107,7 +108,7 @@ function AppContent() {
       <main className="flex-grow">
         {renderView()}
       </main>
-
+      <Marquee/>
       <Footer />
       <ScrollToTopButton />
     </div>

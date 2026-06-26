@@ -11,9 +11,7 @@ import {
   Twitter, 
   Mail, 
   Phone, 
-  MapPin, 
-  Heart,
-  ExternalLink 
+  MapPin 
 } from 'lucide-react';
 import { 
   SERVICES_DATA, 
@@ -130,12 +128,11 @@ export default function Footer() {
             {/* Round Circle Social Links */}
             <div className="flex items-center gap-3">
               <a 
-                href="https://facebook.com" 
+                href="https://www.facebook.com/profile.php?id=61561896989739" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="Follow us on Facebook"
-                className="w-10 h-10 rounded-full bg-neutral-800 text-neutral-300 flex items-center justify-center hover:bg-[#122e42]
-] hover:text-white hover:scale-110 active:scale-95 transition-all"
+                className="w-10 h-10 rounded-full bg-neutral-800 text-neutral-300 flex items-center justify-center hover:bg-[#122e42] hover:text-white hover:scale-110 active:scale-95 transition-all"
               >
                 <Facebook size={18} />
               </a>
@@ -144,8 +141,7 @@ export default function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="Follow us on Instagram"
-                className="w-10 h-10 rounded-full bg-neutral-800 text-neutral-300 flex items-center justify-center hover:bg-[#122e42]
-] hover:text-white hover:scale-110 active:scale-95 transition-all"
+                className="w-10 h-10 rounded-full bg-neutral-800 text-neutral-300 flex items-center justify-center hover:bg-[#122e42] hover:text-white hover:scale-110 active:scale-95 transition-all"
               >
                 <Instagram size={18} />
               </a>
@@ -154,8 +150,7 @@ export default function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="Follow us on X or Twitter"
-                className="w-10 h-10 rounded-full bg-neutral-800 text-neutral-300 flex items-center justify-center hover:bg-[#122e42]
-] hover:text-white hover:scale-110 active:scale-95 transition-all"
+                className="w-10 h-10 rounded-full bg-neutral-800 text-neutral-300 flex items-center justify-center hover:bg-[#122e42] hover:text-white hover:scale-110 active:scale-95 transition-all"
               >
                 <Twitter size={18} />
               </a>
@@ -180,9 +175,9 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
             <span>&copy; {currentYear} Affectionate Living Care. All rights reserved.</span>
             <span className="hidden sm:inline text-neutral-700">|</span>
-            <span>
-              Built with <Heart size={10} className="inline text-rose-500 fill-rose-500 mx-0.5" /> by <a href="#" className="hover:underline hover:text-[#e9cb8d] transition-colors">Tekuvo</a> &amp; <a href="#" className="hover:underline hover:text-[#e9cb8d] transition-colors">Marvex</a>
-            </span>
+          </div>
+          <div className="text-xs text-neutral-500">
+            Digital experience by Vista Creative Agency
           </div>
         </div>
 

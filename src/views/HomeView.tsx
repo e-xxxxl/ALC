@@ -32,8 +32,8 @@ import FAQAccordion from '../components/FAQAccordion';
 // Carousel photos for the Services section
 const CAROUSEL_IMAGES = [
   "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&q=80&w=700&h=700", // holding hands
-  "https://images.unsplash.com/photo-1576765608866-5b5104845990?auto=format&fit=crop&q=80&w=700&h=700", // smiling carer & senior
-  "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&q=80&w=700&h=700", // dementia / supportive walking
+  "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&q=80&w=600", // smiling carer & senior
+  "https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&q=80&w=600", // dementia / supportive walking
 ];
 
 export default function HomeView() {
@@ -60,12 +60,12 @@ export default function HomeView() {
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10 space-y-8">
         
           
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-heading font-bold text-gray-950 tracking-tight leading-tight max-w-3xl mx-auto">
-            Caring support crafted to meet your loved one’s needs
+          <h1 className="text-2xl sm:text-5xl md:text-4xl font-heading font-bold text-gray-950 tracking-tight leading-tight max-w-3xl mx-auto">
+           Compassionate, Person-centered care that surrounds your loved one with dignity, warmth, and genuine human connection. 
           </h1>
           
           <p className="text-gray-600 text-base md:text-lg max-w-xl mx-auto font-light leading-relaxed">
-            Trusted home care delivered with compassion and respect.
+            We provide personalised home support shaped around their unique needs and choices, delivered with empathy, respect, and a steadfast commitment to safe, high-quality, and consistently reliable care.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4">
@@ -355,7 +355,7 @@ export default function HomeView() {
               {/* Image 1 - top right skewed */}
               <div className="rounded-2xl overflow-hidden shadow-md h-52 md:h-60 relative group border border-slate-100">
                 <img 
-                  src="https://images.unsplash.com/photo-1576765608866-5b5104845990?auto=format&fit=crop&q=80&w=650&h=400" 
+                  src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=650&h=400" 
                   alt="Friendly homecare consultation" 
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500"
@@ -366,7 +366,7 @@ export default function HomeView() {
               {/* Image 2 - bottom left offset */}
               <div className="rounded-2xl overflow-hidden shadow-md h-52 md:h-60 relative group border border-slate-100">
                 <img 
-                  src="https://images.unsplash.com/photo-1540324155974-7265d7c6a1e6?auto=format&fit=crop&q=80&w=650&h=400" 
+                  src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&q=80&w=600" 
                   alt="Dignified live-in caretaker support" 
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500"

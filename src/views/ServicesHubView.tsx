@@ -39,7 +39,8 @@ const iconMap: { [key: string]: any } = {
   Users: Users,
   MapPin: MapPin,
   ShieldAlert: ShieldAlert,
-  Baby: Baby
+  Baby: Baby,
+  Sparkles: Sparkles
 };
 
 export default function ServicesHubView() {
@@ -49,8 +50,7 @@ export default function ServicesHubView() {
       {/* Intro Header */}
       <section className="bg-slate-50 py-16 md:py-24 border-b border-slate-100 relative">
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10 space-y-6">
-          <span className="text-[10px] font-bold font-mono tracking-widest text-[#122e42]
-] bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100">
+          <span className="text-[10px] font-bold font-mono tracking-widest text-brand-primary bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100">
             Care Pathways
           </span>
           <h1 className="text-3xl md:text-5xl font-heading font-bold text-gray-950 tracking-tight leading-tight">
@@ -67,8 +67,7 @@ export default function ServicesHubView() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           
           <div className="text-center space-y-3 mb-16">
-            <h2 className="text-2xl md:text-3.5xl font-heading font-bold text-[#122e42]
-] leading-tight">
+            <h2 className="text-2xl md:text-3.5xl font-heading font-bold text-brand-primary leading-tight">
               Bespoke Care for Every Chapter of Life
             </h2>
             <p className="text-gray-600 text-xs md:text-sm font-light max-w-md mx-auto">
@@ -87,20 +86,18 @@ export default function ServicesHubView() {
                   <div className="space-y-4">
                     {/* Dynamic Icon header */}
                     <div className="flex items-center justify-between">
-                      <div className="w-12 h-12 rounded-2xl bg-[#122e42]
-] text-white flex items-center justify-center shadow-md">
+                      <div className="w-12 h-12 rounded-2xl bg-brand-primary text-white flex items-center justify-center shadow-md">
                         <IconComponent size={20} />
                       </div>
                       {service.badge && (
-                        <span className="bg-[#e9cb8d]/10 border border-[#e9cb8d]/20 text-[#e9cb8d] font-semibold font-mono text-[10px] px-3 py-1 rounded-full uppercase">
+                        <span className="bg-brand-accent/10 border border-brand-accent/20 text-brand-accent font-semibold font-mono text-[10px] px-3 py-1 rounded-full uppercase">
                           {service.badge}
                         </span>
                       )}
                     </div>
 
                     <div className="space-y-2">
-                      <h3 className="font-heading font-bold text-[#122e42]
-] text-lg md:text-xl group-hover:text-[#e9cb8d] transition-colors">
+                      <h3 className="font-heading font-bold text-brand-primary text-lg md:text-xl group-hover:text-brand-accent transition-colors">
                         {service.title}
                       </h3>
                       <p className="text-gray-650 text-xs md:text-sm font-light leading-relaxed line-clamp-3">
@@ -113,8 +110,7 @@ export default function ServicesHubView() {
                     <span className="text-[10px] font-mono text-gray-400">affectionatelivingcare.com</span>
                     <Link 
                       href={`/our-services/${service.slug}`}
-                      className="inline-flex items-center gap-1.5 text-xs text-[#122e42]
-] font-bold hover:underline"
+                      className="inline-flex items-center gap-1.5 text-xs text-brand-primary font-bold hover:underline"
                     >
                       <span>Learn more</span>
                       <ArrowRight size={13} className="translate-x-0 group-hover:translate-x-1 transition-transform" />
