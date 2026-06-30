@@ -429,10 +429,10 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Medication Support: Reminders or administration (where appropriate) to help you stay well and follow prescribed routines."
     ],
     whoItsFor: [
-      "Individuals requiring sensitive, polite, and dignified support with personal hygiene and grooming",
-      "Those who need structured morning and bedtime care routines aligned with their lifestyle",
-      "People with reduced physical mobility requiring safe transfers and movement assistance",
-      "Anyone looking for a fully customized care plan designed around their personal choices"
+      "Individuals requiring sensitive, polite, and dignified support with personal hygiene and grooming.",
+      "Those who need structured morning and bedtime care routines aligned with their lifestyle.",
+      "People with reduced physical mobility requiring safe transfers and movement assistance.",
+      "Anyone looking for a fully customized care plan designed around their personal choices."
     ],
     image: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&q=80&w=600",
     iconName: "HeartPulse"
@@ -442,18 +442,18 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: "Reablement Support",
     shortDescription: "Short-term therapeutic support to help you regain full independence after an illness, injury, or hospital discharge.",
     description: "Reablement Support at Affectionate Living Care Ltd is designed to help you regain the skills, confidence, and independence that may have been affected by illness, a hospital stay, reduced mobility, or a period of difficulty at home. Our focus is to empower you to do things for yourself again, at your own pace, with encouragement and gentle guidance every step of the way.",
-    longDescription: "We work alongside you to rebuild your strengths, restore your routines, and support you to live safely and independently in the place you call home. Every part of the support is shaped around your goals, your abilities, and what matters most to you.\n\nWorking Together for Your Recovery\n\nWe collaborate closely with healthcare professionals, physiotherapists, and occupational therapists to ensure your reablement plan aligns with your clinical needs and personal goals. This joined‑up approach helps you progress safely, confidently, and at a pace that feels right for you.\n\nOur aim is simple: to help you return to living life on your own terms, with renewed strength, independence, and peace of mind.",
+    longDescription: "We work alongside you to rebuild your strengths, restore your routines, and support you to live safely and independently in the place you call home. Every part of the support is shaped around your goals, your abilities, and what matters most to you.\n\nWorking Together for Your Recovery\n\nWe collaborate closely with healthcare professionals, physiotherapists, and occupational therapists to ensure your reablement plan aligns with your clinical needs and personal goals. This joined-up approach helps you progress safely, confidently, and at a pace that feels right for you.\n\nOur aim is simple: to help you return to living life on your own terms, with renewed strength, independence, and peace of mind.",
     benefits: [
-      "Daily Living Skills Practice — support to rebuild confidence in everyday tasks such as washing, dressing, preparing meals, and managing your home environment.",
-      "Physiotherapy and Exercise Support — assistance with completing prescribed exercises to aid recovery, mobility, and strength.",
-      "Confidence Building in Mobility — gentle encouragement to move safely around your home, use mobility aids, and regain trust in your balance and movement.",
-      "Gradual Reduction of Support — a structured approach that reduces assistance as your independence grows, ensuring you feel capable and in control.",
-      "Establishing Safe and Sustainable Routines — guidance to help you develop new habits and routines that support long‑term wellbeing and safety."
+      "Daily Living Skills Practice: Support to rebuild confidence in everyday tasks such as washing, dressing, preparing meals, and managing your home environment.",
+      "Physiotherapy and Exercise Support: Assistance with completing prescribed exercises to aid recovery, mobility, and strength.",
+      "Confidence Building in Mobility: Gentle encouragement to move safely around your home, use mobility aids, and regain trust in your balance and movement.",
+      "Gradual Reduction of Support: A structured approach that reduces assistance as your independence grows, ensuring you feel capable and in control.",
+      "Establishing Safe and Sustainable Routines: Guidance to help you develop new habits and routines that support long-term wellbeing and safety."
     ],
     whoItsFor: [
-      "Individuals recovering from a recent illness, a major fall, or decreased physical confidence",
-      "Those post-discharge from hospital requiring temporary assistance to regain self-reliance",
-      "People aiming to rebuild daily skills like cooking, grooming, or managing their home"
+      "Individuals recovering from a recent illness, a major fall, or decreased physical confidence.",
+      "Those post-discharge from hospital requiring temporary assistance to regain self-reliance.",
+      "People aiming to rebuild daily skills like cooking, grooming, or managing their home."
     ],
     image: "https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&q=80&w=600",
     iconName: "Accessibility"
@@ -464,18 +464,18 @@ export const SERVICES_DATA: ServiceItem[] = [
     badge: "Flexible Hours",
     shortDescription: "Temporary, heartwarming relief for family and primary caregivers, ensuring continuous professional care.",
     description: "At Affectionate Living Care, we understand that being a family caregiver is a profound act of love, but it can also be physically, mentally, and emotionally demanding. Our Respite Care service is designed to give primary caregivers the time and space to rest, recharge, or attend to personal commitments, while knowing their loved one is receiving safe, professional, and compassionate support.",
-    longDescription: "Whether you need a short break, a full night of rest, or planned cover for a holiday, our team provides seamless, person centred care that maintains your loved one’s comfort, dignity, and routine.\n\nA Smooth and Reassuring Transition\n\nAt Affectionate Living Care, we take time to understand your loved one’s needs, preferences, communication style, and daily habits. This allows us to provide care that feels natural, respectful, and consistent, giving you complete peace of mind while you take the time you need for yourself.\n\nOur goal is simple: to support families, protect wellbeing, and ensure every person receives compassionate care, even when their usual caregiver takes a well deserved break.",
+    longDescription: "Whether you need a short break, a full night of rest, or planned cover for a holiday, our team provides seamless, person-centred care that maintains your loved one’s comfort, dignity, and routine.\n\nA Smooth and Reassuring Transition\n\nAt Affectionate Living Care, we take time to understand your loved one’s needs, preferences, communication style, and daily habits. This allows us to provide care that feels natural, respectful, and consistent, giving you complete peace of mind while you take the time you need for yourself.\n\nOur goal is simple: to support families, protect wellbeing, and ensure every person receives compassionate care, even when their usual caregiver takes a well-deserved break.",
     benefits: [
-      "Short daily visits — cover for appointments, errands, or personal time while ensuring your loved one remains safe and supported.",
-      "Overnight care — reassurance and supervision throughout the night so you can rest without worry.",
-      "Weekend and holiday cover — planned support for several days or weeks, allowing you to take a well deserved break.",
-      "Emergency respite — immediate support when the primary caregiver is unwell or unexpectedly unavailable.",
-      "Continuation of existing routines — we follow established routines, preferences, and care plans to ensure comfort and familiarity."
+      "Short daily visits: Cover for appointments, errands, or personal time while ensuring your loved one remains safe and supported.",
+      "Overnight care: Reassurance and supervision throughout the night so you can rest without worry.",
+      "Weekend and holiday cover: Planned support for several days or weeks, allowing you to take a well-deserved break.",
+      "Emergency respite: Immediate support when the primary caregiver is unwell or unexpectedly unavailable.",
+      "Continuation of existing routines: We follow established routines, preferences, and care plans to ensure comfort and familiarity."
     ],
     whoItsFor: [
-      "Dedicated partner or child caregivers requiring a mental and physical break",
-      "Families planning a holiday or trip who cannot easily transport their dependent relative",
-      "Primary carers dealing with their own urgent medical or family situations"
+      "Dedicated partner or child caregivers requiring a mental and physical break.",
+      "Families planning a holiday or trip who cannot easily transport their dependent relative.",
+      "Primary carers dealing with their own urgent medical or family situations."
     ],
     image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&q=80&w=600",
     iconName: "Clock"
@@ -485,41 +485,41 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: "Live-in Care",
     badge: "24/7 Peace of Mind",
     shortDescription: "Constant, dedicated, and welcoming 24-hour support by a matched caregiver residing full-time in your home.",
-    description: "At Affectionate Living Care, our Live in Care service offers a reassuring and dignified alternative to moving into a care home. A carefully matched, fully trained care professional lives with you in your home, providing continuous support, companionship, and peace of mind. This allows you or your loved one to remain in familiar surroundings, stay close to cherished memories, and continue living life with comfort and independence.",
-    longDescription: "Your routines, preferences, and wellbeing guide every aspect of the support we provide. Our aim is to create a safe, calm, and supportive environment where you feel valued, respected, and truly at home.\n\nA Thoughtful Matching Process\n\nAt Affectionate Living Care, we take great care in matching each client with the right live in carer. We consider not only care needs, but also personality, interests, cultural background, and lifestyle. This ensures a harmonious, respectful, and supportive living arrangement where both comfort and trust can grow naturally.\n\nOur goal is to help you live safely, confidently, and joyfully in the place you love most….your home.",
+    description: "At Affectionate Living Care, our Live-in Care service offers a reassuring and dignified alternative to moving into a care home. A carefully matched, fully trained care professional lives with you in your home, providing continuous support, companionship, and peace of mind. This allows you or your loved one to remain in familiar surroundings, stay close to cherished memories, and continue living life with comfort and independence.",
+    longDescription: "Your routines, preferences, and wellbeing guide every aspect of the support we provide. Our aim is to create a safe, calm, and supportive environment where you feel valued, respected, and truly at home.\n\nA Thoughtful Matching Process\n\nAt Affectionate Living Care, we take great care in matching each client with the right live-in carer. We consider not only care needs, but also personality, interests, cultural background, and lifestyle. This ensures a harmonious, respectful, and supportive living arrangement where both comfort and trust can grow naturally.\n\nOur goal is to help you live safely, confidently, and joyfully in the place you love most… your home.",
     benefits: [
-      "One to one personalised care — continuous support tailored to your needs, preferences, and lifestyle.",
-      "Comfort of familiar surroundings — remain at home with your routines, pets, possessions, and community connections.",
-      "Maintaining daily routines and hobbies — gentle support to continue the activities that bring joy and purpose.",
-      "Personal care and household support — assistance with personal care, meal preparation, light housekeeping, and daily tasks.",
-      "Day and night reassurance — immediate support whenever needed, offering safety, comfort, and peace of mind.",
-      "Meaningful companionship — warm, genuine connection that reduces loneliness and supports emotional wellbeing."
+      "One-to-one personalised care: Continuous support tailored to your needs, preferences, and lifestyle.",
+      "Comfort of familiar surroundings: Remain at home with your routines, pets, possessions, and community connections.",
+      "Maintaining daily routines and hobbies: Gentle support to continue the activities that bring joy and purpose.",
+      "Personal care and household support: Assistance with personal care, meal preparation, light housekeeping, and daily tasks.",
+      "Day and night reassurance: Immediate support whenever needed, offering safety, comfort, and peace of mind.",
+      "Meaningful companionship: Warm, genuine connection that reduces loneliness and supports emotional wellbeing."
     ],
     whoItsFor: [
-      "Seniors who are increasingly fragile and cannot safely spend nights alone",
-      "Individuals with progressive dementia who find changes in environment deeply distressing",
-      "Couples who wish to stay together rather than register into separate residential care rooms"
+      "Seniors who are increasingly fragile and cannot safely spend nights alone.",
+      "Individuals with progressive dementia who find changes in environment deeply distressing.",
+      "Couples who wish to stay together rather than register into separate residential care rooms."
     ],
- image: "https://images.unsplash.com/photo-1702648156180-25d8be9c9527?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1702648156180-25d8be9c9527?auto=format&fit=crop&q=80&w=600",
     iconName: "Home"
   },
   {
     slug: "complex-care",
     title: "Complex Care",
     shortDescription: "Clinical, nurse-led support for highly specialized healthcare requirements and severe physical conditions.",
-    description: "At Affectionate Living Care, our Complex Care service provides high level, long term support for individuals with significant and ongoing healthcare needs. These needs may arise from chronic conditions, disabilities, neurological illnesses, or recovery following hospital treatment. Our highly trained care professionals deliver safe, skilled, and compassionate clinical support in the comfort and familiarity of your own home.",
-    longDescription: "We recognise that complex needs require more than routine care. They require precision, consistency, dignity, and a deep understanding of each person’s unique health journey. Our approach ensures you receive the right level of clinical support while maintaining independence, comfort, and quality of life.\n\nClinical Excellence at Home\n\nOur Complex Care teams are specially trained and often overseen by clinical leads to ensure every aspect of care is delivered safely, effectively, and in line with best practice. We work in close partnership with district nurses, hospital discharge teams, physiotherapists and occupational therapists, specialist consultants, and community healthcare professionals.\n\nThis joined up approach ensures your care plan is clinically robust, regularly reviewed, and aligned with your long term health goals.\n\nOur aim is to support you to live safely at home, reduce avoidable hospital admissions, and maintain the highest possible quality of life.",
+    description: "At Affectionate Living Care, our Complex Care service provides high-level, long-term support for individuals with significant and ongoing healthcare needs. These needs may arise from chronic conditions, disabilities, neurological illnesses, or recovery following hospital treatment. Our highly trained care professionals deliver safe, skilled, and compassionate clinical support in the comfort and familiarity of your own home.",
+    longDescription: "We recognise that complex needs require more than routine care. They require precision, consistency, dignity, and a deep understanding of each person’s unique health journey. Our approach ensures you receive the right level of clinical support while maintaining independence, comfort, and quality of life.\n\nClinical Excellence at Home\n\nOur Complex Care teams are specially trained and often overseen by clinical leads to ensure every aspect of care is delivered safely, effectively, and in line with best practice. We work in close partnership with district nurses, hospital discharge teams, physiotherapists and occupational therapists, specialist consultants, and community healthcare professionals.\n\nThis joined-up approach ensures your care plan is clinically robust, regularly reviewed, and aligned with your long-term health goals.\n\nOur aim is to support you to live safely at home, reduce avoidable hospital admissions, and maintain the highest possible quality of life.",
     benefits: [
-      "Neurological conditions — such as Multiple Sclerosis, Motor Neurone Disease, Parkinsons, and other progressive conditions.",
-      "Spinal cord and acquired brain injuries — support with rehabilitation, mobility, and daily living following life changing injuries.",
-      "Respiratory conditions — including ventilation management, tracheostomy care, suctioning, and airway monitoring.",
-      "Enteral feeding — safe support with PEG or gastrostomy feeding, hydration, and nutritional routines.",
-      "Complex continence and stoma care — sensitive, skilled support that protects dignity and promotes comfort."
+      "Neurological conditions: Such as Multiple Sclerosis, Motor Neurone Disease, Parkinson’s, and other progressive conditions.",
+      "Spinal cord and acquired brain injuries: Support with rehabilitation, mobility, and daily living following life-changing injuries.",
+      "Respiratory conditions: Including ventilation management, tracheostomy care, suctioning, and airway monitoring.",
+      "Enteral feeding: Safe support with PEG or gastrostomy feeding, hydration, and nutritional routines.",
+      "Complex continence and stoma care: Sensitive, skilled support that protects dignity and promotes comfort."
     ],
     whoItsFor: [
-      "People living with progressive neurological conditions (e.g. MND, multiple sclerosis)",
-      "Individuals with spinal cord injuries, complex brain injuries, or physical paralysis",
-      "Patients requiring palliative support and dignified end-of-life care at home"
+      "People living with progressive neurological conditions (e.g. MND, multiple sclerosis).",
+      "Individuals with spinal cord injuries, complex brain injuries, or physical paralysis.",
+      "Patients requiring palliative support and dignified end-of-life care at home."
     ],
     image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=600",
     iconName: "Stethoscope"
@@ -530,41 +530,41 @@ export const SERVICES_DATA: ServiceItem[] = [
     badge: "Expert Certified",
     shortDescription: "Gentle, memory-stimulating, and safety-focused assistance designed for individuals living with Alzheimer's and all forms of dementia.",
     description: "At Affectionate Living Care, we understand that a dementia diagnosis brings unique emotional and practical challenges for both the individual and their family. Our Dementia Care service is designed to provide consistency, reassurance, and specialist support, helping individuals remain in the comfort and familiarity of their own home — a setting that is often essential for their wellbeing, confidence, and sense of identity.",
-    longDescription: "Our approach is gentle, patient, and deeply person centred. We focus on who the person is, not just the condition they live with, ensuring every moment of care is delivered with dignity, respect, and compassion.\n\nCare That Sees the Person Behind the Diagnosis\n\nAt Affectionate Living Care, we take time to understand each person’s life story, preferences, cultural background, communication style, and personality. This allows us to deliver care that truly resonates with who they are — supporting comfort, connection, and moments of joy.\n\nOur goal is to help individuals living with dementia feel safe, valued, and understood, while giving families the confidence that their loved one is receiving compassionate, specialist care at home.",
+    longDescription: "Our approach is gentle, patient, and deeply person-centred. We focus on who the person is, not just the condition they live with, ensuring every moment of care is delivered with dignity, respect, and compassion.\n\nCare That Sees the Person Behind the Diagnosis\n\nAt Affectionate Living Care, we take time to understand each person’s life story, preferences, cultural background, communication style, and personality. This allows us to deliver care that truly resonates with who they are — supporting comfort, connection, and moments of joy.\n\nOur goal is to help individuals living with dementia feel safe, valued, and understood, while giving families the confidence that their loved one is receiving compassionate, specialist care at home.",
     benefits: [
-      "Maintaining familiar routines — reducing confusion and anxiety by supporting daily patterns that feel safe and predictable.",
-      "Creating a safe home environment — gentle supervision and adjustments to minimise risks and prevent accidents.",
-      "Meaningful cognitive stimulation — activities that encourage memory, engagement, and enjoyment.",
-      "Managing behavioural changes — patient, understanding responses to agitation, restlessness, or distress.",
-      "Nutrition and hydration support — ensuring regular meals, drinks, and gentle encouragement to maintain wellbeing.",
-      "Emotional support for families — reassurance, guidance, and respite to help families cope with the demands of caregiving."
+      "Maintaining familiar routines: Reducing confusion and anxiety by supporting daily patterns that feel safe and predictable.",
+      "Creating a safe home environment: Gentle supervision and adjustments to minimise risks and prevent accidents.",
+      "Meaningful cognitive stimulation: Activities that encourage memory, engagement, and enjoyment.",
+      "Managing behavioural changes: Patient, understanding responses to agitation, restlessness, or distress.",
+      "Nutrition and hydration support: Ensuring regular meals, drinks, and gentle encouragement to maintain wellbeing.",
+      "Emotional support for families: Reassurance, guidance, and respite to help families cope with the demands of caregiving."
     ],
     whoItsFor: [
-      "Individuals diagnosed with Alzheimer's, vascular, or mixed-type dementia",
-      "Seniors suffering from distressing confusion or sudden behavioral changes at home",
-      "Families searching for peace of mind that their loved one is protected and understood"
+      "Individuals diagnosed with Alzheimer's, vascular, or mixed-type dementia.",
+      "Seniors suffering from distressing confusion or sudden behavioral changes at home.",
+      "Families searching for peace of mind that their loved one is protected and understood."
     ],
-     image: "https://images.unsplash.com/photo-1773227059522-acc3ae46abdc?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1773227059522-acc3ae46abdc?auto=format&fit=crop&q=80&w=600",
     iconName: "BrainCircuit"
   },
   {
     slug: "strokes-and-brain-injuries",
     title: "Strokes and Brain Injuries",
     shortDescription: "Comprehensive cognitive and physical support programs to aid neural recovery and daily life adaptation.",
-    description: "At Affectionate Living Care, we understand that recovering from a stroke or an acquired brain injury is a deeply personal journey that requires patience, specialist knowledge, and consistent, compassionate support. These life changing events can affect mobility, communication, cognition, and emotional wellbeing — and our role is to help individuals rebuild confidence, regain skills, and move forward safely at their own pace.",
+    description: "At Affectionate Living Care, we understand that recovering from a stroke or an acquired brain injury is a deeply personal journey that requires patience, specialist knowledge, and consistent, compassionate support. These life-changing events can affect mobility, communication, cognition, and emotional wellbeing — and our role is to help individuals rebuild confidence, regain skills, and move forward safely at their own pace.",
     longDescription: "Our care teams are specially trained to support both the physical and cognitive challenges that follow a stroke or brain injury, providing structured rehabilitation support in the comfort and familiarity of home.\n\nWorking Together for the Best Possible Recovery\n\nAt Affectionate Living Care, we work closely with your multidisciplinary healthcare team — including physiotherapists, occupational therapists, speech and language therapists, and hospital discharge teams — to ensure our support aligns with your rehabilitation goals.\n\nOur aim is to provide the encouragement, structure, and practical help needed to maximise recovery, rebuild independence, and support a meaningful return to daily life.",
     benefits: [
-      "Mobility and safe transfers — assistance with moving safely, practising mobility techniques, and using equipment confidently.",
-      "Physiotherapy and occupational therapy support — guidance with prescribed exercises to aid strength, coordination, and functional recovery.",
-      "Speech and communication strategies — support with communication techniques, speech exercises, and alternative communication methods.",
-      "Adapted personal care — sensitive assistance tailored to new physical limitations or changing abilities.",
-      "Cognitive and memory support — prompts, memory aids, and structured activities to support concentration and cognitive recovery.",
-      "Emotional and psychological reassurance — compassionate support to help individuals and families cope with the emotional impact of recovery."
+      "Mobility and safe transfers: Assistance with moving safely, practising mobility techniques, and using equipment confidently.",
+      "Physiotherapy and occupational therapy support: Guidance with prescribed exercises to aid strength, coordination, and functional recovery.",
+      "Speech and communication strategies: Support with communication techniques, speech exercises, and alternative communication methods.",
+      "Adapted personal care: Sensitive assistance tailored to new physical limitations or changing abilities.",
+      "Cognitive and memory support: Prompts, memory aids, and structured activities to support concentration and cognitive recovery.",
+      "Emotional and psychological reassurance: Compassionate support to help individuals and families cope with the emotional impact of recovery."
     ],
     whoItsFor: [
-      "Stroke survivors moving into their post-hospital acute rehabilitation phase",
-      "Individuals recovering from traumatic falls, accidents, or neural surgeries",
-      "People seeking to maximize their cognitive and physical capabilities over months or years"
+      "Stroke survivors moving into their post-hospital acute rehabilitation phase.",
+      "Individuals recovering from traumatic falls, accidents, or neural surgeries.",
+      "People seeking to maximize their cognitive and physical capabilities over months or years."
     ],
     image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=600",
     iconName: "Activity"
@@ -574,19 +574,19 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: "Learning Disabilities and Autism",
     shortDescription: "Empowering, child-and-adult focus that boosts autonomy, physical skills, and participation in the local community.",
     description: "At Affectionate Living Care, we believe that every person has the right to live a meaningful, fulfilling life with choice, independence, and opportunity. Our support for individuals with learning disabilities and autism is built around strengths, aspirations, and personal goals — not limitations. We focus on empowering each person to develop confidence, build skills, and participate fully in their community.",
-    longDescription: "Our approach is respectful, patient, and deeply person centred. We take time to understand each individual’s communication style, sensory needs, preferences, and routines, ensuring support feels safe, predictable, and genuinely empowering.\n\nSupport That Celebrates the Individual\n\nOur caregivers are trained to understand diverse communication methods, sensory profiles, and behavioural needs. We work closely with each person — and their family or support network where appropriate — to create a personalised plan that encourages choice, builds confidence, and promotes a rich, active life.\n\nAt Affectionate Living Care, we see the person first. We celebrate strengths, nurture potential, and provide the support needed to live with independence, dignity, and joy.",
+    longDescription: "Our approach is respectful, patient, and deeply person-centred. We take time to understand each individual’s communication style, sensory needs, preferences, and routines, ensuring support feels safe, predictable, and genuinely empowering.\n\nSupport That Celebrates the Individual\n\nOur caregivers are trained to understand diverse communication methods, sensory profiles, and behavioural needs. We work closely with each person — and their family or support network where appropriate — to create a personalised plan that encourages choice, builds confidence, and promotes a rich, active life.\n\nAt Affectionate Living Care, we see the person first. We celebrate strengths, nurture potential, and provide the support needed to live with independence, dignity, and joy.",
     benefits: [
-      "Daily living and life skills — support with cooking, cleaning, personal care, travel training, and building practical independence.",
-      "Community access and social inclusion — help to take part in social activities, clubs, events, and local opportunities.",
-      "Education, volunteering, and employment support — encouragement and practical help to pursue learning, work experience, or job goals.",
-      "Managing finances and household tasks — guidance with budgeting, shopping, bills, and maintaining a safe home environment.",
-      "Communication and relationship building — support tailored to individual communication styles, helping build confidence and positive relationships.",
-      "Consistent routines and structure — predictable routines that reduce anxiety and create a sense of safety and stability."
+      "Daily living and life skills: Support with cooking, cleaning, personal care, travel training, and building practical independence.",
+      "Community access and social inclusion: Help to take part in social activities, clubs, events, and local opportunities.",
+      "Education, volunteering, and employment support: Encouragement and practical help to pursue learning, work experience, or job goals.",
+      "Managing finances and household tasks: Guidance with budgeting, shopping, bills, and maintaining a safe home environment.",
+      "Communication and relationship building: Support tailored to individual communication styles, helping build confidence and positive relationships.",
+      "Consistent routines and structure: Predictable routines that reduce anxiety and create a sense of safety and stability."
     ],
     whoItsFor: [
-      "Adults on the autism spectrum or with developmental learning disabilities seeking self-reliance",
-      "Young adults transitioning out of child services into independent tenancy spaces",
-      "Parents hoping to secure structured, empowering schedules for their adult child"
+      "Adults on the autism spectrum or with developmental learning disabilities seeking self-reliance.",
+      "Young adults transitioning out of child services into independent tenancy spaces.",
+      "Parents hoping to secure structured, empowering schedules for their adult child."
     ],
     image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&q=80&w=600",
     iconName: "Compass"
@@ -598,17 +598,17 @@ export const SERVICES_DATA: ServiceItem[] = [
     description: "At Affectionate Living Care, we believe that living with a physical disability should never limit a person’s independence, dignity, or quality of life. Our Physical Disabilities Support service provides practical, respectful, and empowering assistance that enables individuals to live confidently and comfortably in their own homes.",
     longDescription: "We focus on what you can do, not what you cannot. Our role is to remove barriers, promote independence, and provide reliable support that aligns with your goals, preferences, and daily routines.\n\nSupport That Enables, Not Limits\n\nOur team is fully trained in the safe use of mobility aids, adaptive equipment, and personalised care techniques. We work alongside you to build confidence, promote independence, and ensure you have the support you need to live life on your own terms.\n\nAt Affectionate Living Care, our goal is simple: to empower you to live fully, freely, and without unnecessary limitations.",
     benefits: [
-      "Morning and evening routines — support with getting ready for the day and winding down safely and comfortably.",
-      "Safe moving and handling — assistance using hoists, stand aids, slide sheets, and other equipment, delivered by fully trained staff.",
-      "Personal care and grooming — sensitive support with washing, dressing, skincare, and maintaining your preferred appearance.",
-      "Meal preparation and household tasks — help with cooking, cleaning, laundry, and keeping your home environment safe and comfortable.",
-      "Support with appointments or work — assistance with travel, attending appointments, or maintaining employment or volunteering commitments.",
-      "Social activities and hobbies — encouragement and practical help to stay active, connected, and engaged in the things you enjoy."
+      "Morning and evening routines: Support with getting ready for the day and winding down safely and comfortably.",
+      "Safe moving and handling: Assistance using hoists, stand aids, slide sheets, and other equipment, delivered by fully trained staff.",
+      "Personal care and grooming: Sensitive support with washing, dressing, skincare, and maintaining your preferred appearance.",
+      "Meal preparation and household tasks: Help with cooking, cleaning, laundry, and keeping your home environment safe and comfortable.",
+      "Support with appointments or work: Assistance with travel, attending appointments, or maintaining employment or volunteering commitments.",
+      "Social activities and hobbies: Encouragement and practical help to stay active, connected, and engaged in the things you enjoy."
     ],
     whoItsFor: [
-      "Individuals living with congenital physical structures (e.g. cerebral palsy, spina bifida)",
-      "Seniors dealing with severe, advancing arthritis or rheumatoid complications",
-      "Anyone seeking a respectful, collaborative assistant for dynamic bodily transport"
+      "Individuals living with congenital physical conditions (e.g. cerebral palsy, spina bifida).",
+      "Seniors dealing with severe, advancing arthritis or rheumatoid complications.",
+      "Anyone seeking a respectful, collaborative assistant for dynamic bodily support."
     ],
     image: "https://images.unsplash.com/photo-1773227059522-acc3ae46abdc?auto=format&fit=crop&q=80&w=600",
     iconName: "Users"
@@ -620,17 +620,17 @@ export const SERVICES_DATA: ServiceItem[] = [
     description: "At Affectionate Living Care, we understand that care extends far beyond the walls of the home. Staying connected to the community, maintaining social relationships, and engaging in meaningful activities are essential to wellbeing, confidence, and independence. Our Outreach Support service is designed to help individuals remain active, involved, and empowered in their everyday lives.",
     longDescription: "We provide gentle encouragement, practical assistance, and reliable companionship to ensure you feel safe, supported, and confident when out in the community.\n\nStaying Connected to the World Around You\n\nWhether it is a weekly trip to the supermarket, attending a favourite class, visiting friends, or simply enjoying a walk in the park, our caregivers provide the reassurance and practical support needed to help you stay active and engaged.\n\nAt Affectionate Living Care, our goal is to help you feel confident, included, and connected — supporting you to live a full and meaningful life within your community.",
     benefits: [
-      "Accompaniment to appointments — support with attending medical, therapy, or professional appointments safely and on time.",
-      "Shopping and errands — help with grocery shopping, banking, collecting prescriptions, and other essential tasks.",
-      "Social clubs and community groups — support to attend day centres, clubs, classes, or faith groups that bring joy and connection.",
-      "Hobbies, sports, and leisure activities — encouragement and practical help to take part in activities that support physical and emotional wellbeing.",
-      "Using public transport safely — guidance and reassurance when travelling, helping build confidence and independence.",
-      "Building social skills and community integration — support with communication, confidence, and forming positive relationships."
+      "Accompaniment to appointments: Support with attending medical, therapy, or professional appointments safely and on time.",
+      "Shopping and errands: Help with grocery shopping, banking, collecting prescriptions, and other essential tasks.",
+      "Social clubs and community groups: Support to attend day centres, clubs, classes, or faith groups that bring joy and connection.",
+      "Hobbies, sports, and leisure activities: Encouragement and practical help to take part in activities that support physical and emotional wellbeing.",
+      "Using public transport safely: Guidance and reassurance when travelling, helping build confidence and independence.",
+      "Building social skills and community integration: Support with communication, confidence, and forming positive relationships."
     ],
     whoItsFor: [
-      "Seniors who feel isolated, lonely, or unable to navigate outdoor environments safely",
-      "People with recovery-associated anxieties who need a supportive companion to go outside",
-      "Anyone who wants to regain active routines within Biggleswade and surrounding Bedfordshire towns"
+      "Seniors who feel isolated, lonely, or unable to navigate outdoor environments safely.",
+      "People with recovery-associated anxieties who need a supportive companion to go outside.",
+      "Anyone who wants to regain active routines within Biggleswade and surrounding Bedfordshire towns."
     ],
     image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=600",
     iconName: "MapPin"
@@ -640,19 +640,19 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: "Private Care",
     badge: "Flexible Choice",
     shortDescription: "Complete flexibility, choice, and control for self-funding clients to shape every aspect of their support.",
-    description: "At Affectionate Living Care, our Private Care service offers complete flexibility, choice, and control. Designed for individuals who self fund their care or use direct payments, this service allows you to shape every aspect of your support — from the times we visit, to the tasks we complete, to the caregiver you feel most comfortable with.",
+    description: "At Affectionate Living Care, our Private Care service offers complete flexibility, choice, and control. Designed for individuals who self-fund their care or use direct payments, this service allows you to shape every aspect of your support — from the times we visit, to the tasks we complete, to the caregiver you feel most comfortable with.",
     longDescription: "Private Care is built entirely around your lifestyle. Whether you need occasional companionship, daily support, or tailored assistance for travel or special events, we provide a premium, personalised service that adapts to your needs and preferences.\n\nCare Built Around Your Life\n\nWhether you require a few hours of companionship each week, daily support with complex needs, or someone to accompany you on a trip, our Private Care service is designed to fit seamlessly into your life. You remain in full control, and we provide the reassurance, professionalism, and continuity you deserve.\n\nAt Affectionate Living Care, we deliver premium, uninterrupted support — exactly the way you want it.",
     benefits: [
-      "Flexible visit times — choose the exact times and duration of each visit to suit your routine.",
-      "Personalised support tasks — decide which tasks you want help with, from personal care to household support.",
-      "Accompaniment and social support — support to attend appointments, social events, community activities, or holidays.",
-      "Adaptable scheduling — care that adjusts to your changing plans, commitments, or lifestyle.",
-      "Choice of caregivers — select caregivers whose personality, approach, and values align with yours."
+      "Flexible visit times: Choose the exact times and duration of each visit to suit your routine.",
+      "Personalised support tasks: Decide which tasks you want help with, from personal care to household support.",
+      "Accompaniment and social support: Support to attend appointments, social events, community activities, or holidays.",
+      "Adaptable scheduling: Care that adjusts to your changing plans, commitments, or lifestyle.",
+      "Choice of caregivers: Select caregivers whose personality, approach, and values align with yours."
     ],
     whoItsFor: [
-      "Individuals self-funding their care or using direct payments who want premium flexibility",
-      "Those who wish to choose specific caregivers, customized scheduling, and bespoke duties",
-      "Anyone needing temporary or flexible accompaniment for trips, social outings, or family events"
+      "Individuals self-funding their care or using direct payments who want premium flexibility.",
+      "Those who wish to choose specific caregivers, customized scheduling, and bespoke duties.",
+      "Anyone needing temporary or flexible accompaniment for trips, social outings, or family events."
     ],
     image: "https://images.unsplash.com/photo-1540324155974-7265d7c6a1e6?auto=format&fit=crop&q=80&w=600",
     iconName: "Sparkles"
@@ -665,15 +665,15 @@ export const SERVICES_DATA: ServiceItem[] = [
     description: "Our comprehensive home-care suite for adults is built on a simple foundation: helping you or your loved one live with joy, structure, and respect in your own home.",
     longDescription: "Adult care addresses the broad spectrum of physical, neurological, and emotional needs that mature individuals experience. We deliver support with everyday household operations, physical rehabilitation, memory focus, and medication schedules. Our team is dedicated to matching you with a professional carer who shares your outlook and respects your values.",
     benefits: [
-      "Bespoke physical, dietary and mental support plans tailored to your life priorities",
-      "Support with social integrations, family events, and neighborhood connection plans",
-      "Liaison with family doctors, occupational therapists, and local community groups",
-      "Housekeeping support: healthy home cooking, cleaning, laundry, and gardening assist"
+      "Bespoke physical, dietary and mental support plans tailored to your life priorities.",
+      "Support with social integrations, family events, and neighbourhood connection plans.",
+      "Liaison with family doctors, occupational therapists, and local community groups.",
+      "Housekeeping support: healthy home cooking, cleaning, laundry, and gardening assistance."
     ],
     whoItsFor: [
-      "Adults of all age brackets living with health conditions that impact their independence",
-      "Seniors who prefer living at home but require support with cooking, mobility or memory",
-      "Relatives seeking reassuring, trained care for their parent or partner"
+      "Adults of all age brackets living with health conditions that impact their independence.",
+      "Seniors who prefer living at home but require support with cooking, mobility or memory.",
+      "Relatives seeking reassuring, trained care for their parent or partner."
     ],
     image: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&q=80&w=600",
     iconName: "ShieldAlert"
@@ -686,21 +686,20 @@ export const SERVICES_DATA: ServiceItem[] = [
     description: "Pediatric-focused home care that brings warmth, fun, developmental consistency, and specialized nursing support to your child’s routine.",
     longDescription: "Our pediatric team delivers specialist support for children from birth to age 18. We understand that a child's care must be delivered with immense sensitivity, playful creativity, and an unwavering focus on developmental milestones. We blend clinical precision with childhood fun, working alongside parents, teachers, and pediatricians to keep your child comfortable at home.",
     benefits: [
-      "Specialist clinical support for neurodiversity, genetic conditions, and physical dependencies",
-      "Developmental play sessions, cognitive stimulation, and educational support",
-      "Assistance with morning routines, school preparation, and settling down at night",
-      "Respite options allowing parents to rest, spend time with siblings, or attend appointments"
+      "Specialist clinical support for neurodiversity, genetic conditions, and physical dependencies.",
+      "Developmental play sessions, cognitive stimulation, and educational support.",
+      "Assistance with morning routines, school preparation, and settling down at night.",
+      "Respite options allowing parents to rest, spend time with siblings, or attend appointments."
     ],
     whoItsFor: [
-      "Children and young people with progressive physical or learning disabilities",
-      "Young pediatric patients requiring high-level clinical care plans at home",
-      "Families seeking specialized, empathetic support to build structured, peaceful routines"
+      "Children and young people with progressive physical or learning disabilities.",
+      "Young pediatric patients requiring high-level clinical care plans at home.",
+      "Families seeking specialized, empathetic support to build structured, peaceful routines."
     ],
     image: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&q=80&w=600",
     iconName: "Baby"
   }
 ];
-
 export const GENERAL_FAQS: FaqItem[] = [
   {
     id: "faq-1",

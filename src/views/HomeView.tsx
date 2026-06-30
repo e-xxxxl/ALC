@@ -28,6 +28,7 @@ import {
 } from '../data/site-data';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
+import hero from "../../assets/hero.jpg";
 
 // Carousel photos for the Services section
 const CAROUSEL_IMAGES = [
@@ -51,8 +52,8 @@ export default function HomeView() {
     <div className="pt-[73px] md:pt-[103px] overflow-hidden">
       
       {/* 1. HERO SECTION */}
-      <section className="bg-slate-50 py-16 md:py-24 relative overflow-hidden" id="hero-section">
-        {/* Decorative soft circles, avoiding clutter */}
+      {/* <section className="bg-slate-50 py-16 md:py-24 relative overflow-hidden" id="hero-section">
+       
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-sky-100/50 rounded-full translate-x-1/3 -translate-y-1/3 pointer-events-none"></div>
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#122e42]
 ]/5 rounded-full -translate-x-1/3 translate-y-1/3 pointer-events-none"></div>
@@ -91,14 +92,100 @@ export default function HomeView() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      {/* 2. SERVICE HIGHLIGHT CARDS (Adult care / Child care) */}
+       <section
+      className="relative overflow-hidden  py-20 md:py-28"
+      id="hero-section"
+    >
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid lg:grid-cols-[1.05fr_0.95fr] gap-12 lg:gap-16 items-center">
+ 
+          {/* Left: copy */}
+          <div className="text-center lg:text-left">
+            
+ 
+            <h1 className="mt-5 font-heading font-bold text-[#122E42] text-3xl sm:text-4xl md:text-5xl leading-[1.1] tracking-tight">
+              Compassionate, person-centered care that surrounds your loved one with
+              dignity, warmth, and genuine human connection.
+            </h1>
+ 
+            <p className="mt-6 text-[#475467] text-base md:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
+              We provide personalised home support shaped around their unique needs
+              and choices, delivered with empathy, respect, and a steadfast
+              commitment to safe, high-quality, and consistently reliable care.
+            </p>
+ 
+            <div className="mt-8 flex flex-col sm:flex-row justify-center lg:justify-start items-center gap-4">
+              <Link
+                href="/contact-us"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#122E42] hover:bg-[#0d2233] text-white font-semibold text-sm px-7 py-3.5 rounded-md shadow-sm transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#122E42]"
+                id="hero-primary-cta"
+              >
+                <Heart size={16} className="fill-white/25" />
+                <span>Talk to a care advisor</span>
+              </Link>
+ 
+              <Link
+                href="/our-services"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 text-[#122E42] font-semibold text-sm px-7 py-3.5 rounded-md border border-[#122E42]/15 hover:border-[#122E42]/30 hover:bg-[#122E42]/[0.03] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#122E42]"
+                id="hero-secondary-cta"
+              >
+                <span>See our care services</span>
+                <ArrowRight size={16} />
+              </Link>
+            </div>
+ 
+            <ul className="mt-10 flex flex-wrap justify-center lg:justify-start gap-x-8 gap-y-3">
+              {[
+  "Compassionate, person-centred care",
+  "Experienced & thoroughly vetted caregivers",
+  "Care plans tailored to individual needs",
+].map((item) => (
+                <li key={item} className="flex items-center gap-2 text-sm text-[#122E42]/80">
+                  <span className="h-1.5 w-1.5 rounded-full bg-[#C28840]" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+ 
+          {/* Right: signature element — meet the caregiver, not a stock icon */}
+          <div className="relative mx-auto max-w-sm lg:max-w-none">
+            <div className="relative rotate-[-2deg] rounded-2xl bg-white p-3 shadow-xl shadow-[#122E42]/10 ring-1 ring-black/5">
+              <img
+                src={hero}
+                alt="A caregiver sharing a warm moment with a client at home"
+                className="aspect-[4/5] w-full rounded-xl object-cover"
+              />
+ 
+              <div className="absolute -right-3 -top-3 sm:-right-4 sm:-top-4 rounded-full bg-white px-3 py-1.5 shadow-md ring-1 ring-black/5">
+                <p className="text-[11px] font-semibold uppercase tracking-wide text-[#122E42]">
+                  Affectionate Living Care
+                </p>
+              </div>
+ 
+            <div className="px-2 pt-3 pb-1">
+  <p className="font-heading italic text-[#122E42] text-base leading-snug">
+    "Every visit is guided by compassion, professionalism, and a commitment to enhancing quality of life."
+  </p>
+  <p className="mt-2 text-xs text-[#475467]">
+    — Affectionate Living Care Team
+  </p>
+</div>
+            </div>
+          </div>
+ 
+        </div>
+      </div>
+    </section>
+
+     
       <section className="py-12 md:py-20 bg-white" id="service-highlight-cards">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             
-            {/* Adult Care Card */}
+            
             <div className="group rounded overflow-hidden relative shadow-md hover:shadow-xl hover:-translate-y-1.5 transition-all duration-350 bg-slate-900 min-h-[380px] flex flex-col justify-end p-6 md:p-8">
               {/* Photo background */}
               <img 

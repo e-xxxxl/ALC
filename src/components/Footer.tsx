@@ -137,7 +137,7 @@ export default function Footer() {
                 <Facebook size={18} />
               </a>
               <a 
-                href="https://instagram.com" 
+                href="https://www.instagram.com/affectionatelivingcareuk/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="Follow us on Instagram"
@@ -146,7 +146,7 @@ export default function Footer() {
                 <Instagram size={18} />
               </a>
               <a 
-                href="https://twitter.com" 
+                href="https://x.com/affection_care" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="Follow us on X or Twitter"

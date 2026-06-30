@@ -232,6 +232,14 @@ export default function Navbar() {
                 <Link href="/faqs" className={`block py-3 px-3 rounded-lg ${mobileActiveClass('/faqs')}`}>
                   FAQs & Core Guides
                 </Link>
+                <div className="flex flex-col space-y-1">
+              <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Compliance</span>
+              <div className="space-y-1 pt-1">
+                <Link href="/governance" className={`block py-3 px-3 rounded-lg ${mobileActiveClass('/governance')}`}>
+                  Governance
+                </Link>
+              </div>
+            </div>
               </div>
             </div>
 
@@ -266,23 +274,16 @@ export default function Navbar() {
 ]" />
                   <span className="font-semibold">Why us?</span>
                 </Link>
-                <Link href="/career" className="text-xs p-3 text-center border border-gray-100 hover:border-[#122e42]
+                {/* <Link href="/career" className="text-xs p-3 text-center border border-gray-100 hover:border-[#122e42]
 ] rounded-xl flex flex-col items-center gap-1 hover:bg-slate-50">
                   <Briefcase size={16} className="text-[#122e42]
 ]" />
                   <span className="font-semibold">Careers</span>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
-            <div className="flex flex-col space-y-1">
-              <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Compliance</span>
-              <div className="space-y-1 pt-1">
-                <Link href="/governance" className={`block py-3 px-3 rounded-lg ${mobileActiveClass('/governance')}`}>
-                  Governance
-                </Link>
-              </div>
-            </div>
+            
           </div>
 
           <div className="space-y-4 pt-8 pb-4 border-t border-gray-100">
